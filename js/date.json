@@ -1,0 +1,400 @@
+{
+    "products": [
+      {
+        "image": "assets/airpods_pro.png",
+        "introduce": {
+          "title": "PREMIUM BUDS",
+          "topic": "Apple AirPods Pro (2nd Gen)",
+          "description": "Active Noise Cancellation, Adaptive Audio, and up to 6 hours of listening time."
+        },
+        "detail": {
+          "title": "AirPods Pro (2nd Generation)",
+          "description": "The AirPods Pro (2nd gen) feature incredible audio quality with Adaptive EQ, Personalized Spatial Audio, and sweat and water resistance.",
+          "specifications": {
+            "Battery Life": "6 hours (ANC on), 30 hours with case",
+            "Charging": "MagSafe, Qi, Lightning",
+            "Compatibility": "iOS, Android",
+            "Bluetooth": "5.3",
+            "Features": "ANC, Transparency Mode, IPX4 water resistance"
+          }
+        }
+      },
+      {
+        "image": "assets/sony_xm5.png",
+        "introduce": {
+          "title": "NOISE CANCELLING",
+          "topic": "Sony WF-1000XM5",
+          "description": "Industry-leading noise cancellation with 8 hours battery life and premium sound quality."
+        },
+        "detail": {
+          "title": "Sony WF-1000XM5 Earbuds",
+          "description": "Sony's flagship earbuds with Integrated Processor V2, 8 hours battery life, and multipoint connection.",
+          "specifications": {
+            "Battery Life": "8 hours (ANC on), 24 hours with case",
+            "Charging": "USB-C, Qi wireless",
+            "Compatibility": "Universal",
+            "Bluetooth": "5.3",
+            "Features": "ANC, LDAC support, IPX4 rating"
+          }
+        }
+      },
+      {
+        "image": "assets/samsung_buds2.png",
+        "introduce": {
+          "title": "GALAXY BUDS",
+          "topic": "Samsung Galaxy Buds2 Pro",
+          "description": "Intelligent ANC, 24-bit Hi-Fi sound, and comfortable lightweight design."
+        },
+        "detail": {
+          "title": "Galaxy Buds2 Pro",
+          "description": "Samsung's premium earbuds with 24-bit audio, Smart ANC, and seamless Galaxy ecosystem integration.",
+          "specifications": {
+            "Battery Life": "5 hours (ANC on), 18 hours with case",
+            "Charging": "USB-C, Qi wireless",
+            "Compatibility": "Android (best with Samsung)",
+            "Bluetooth": "5.3",
+            "Features": "ANC, 360 Audio, IPX7 water resistance"
+          }
+        }
+      },
+      {
+        "image": "assets/jabra_elite7.png",
+        "introduce": {
+          "title": "BUSINESS GRADE",
+          "topic": "Jabra Elite 7 Pro",
+          "description": "Crystal-clear calls, adjustable ANC, and ultra-compact design for all-day comfort."
+        },
+        "detail": {
+          "title": "Jabra Elite 7 Pro",
+          "description": "Professional-grade earbuds with MultiSensor Voice technology, 6-mic call system, and customizable sound.",
+          "specifications": {
+            "Battery Life": "8 hours (ANC on), 30 hours with case",
+            "Charging": "USB-C, Qi wireless",
+            "Compatibility": "Universal",
+            "Bluetooth": "5.2",
+            "Features": "ANC, HearThrough, IP57 dust/water resistance"
+          }
+        }
+      },
+      {
+        "image": "assets/xiaomi_buds4.png",
+        "introduce": {
+          "title": "BUDGET PREMIUM",
+          "topic": "Xiaomi Buds 4 Pro",
+          "description": "High-res audio, dual-device connection, and active noise cancellation at an affordable price."
+        },
+        "detail": {
+          "title": "Xiaomi Buds 4 Pro",
+          "description": "Feature-packed earbuds with LHDC 4.0 codec support, -48dB ANC, and glossy piano finish design.",
+          "specifications": {
+            "Battery Life": "9 hours (ANC off), 31 hours with case",
+            "Charging": "USB-C",
+            "Compatibility": "Android (best with Xiaomi)",
+            "Bluetooth": "5.3",
+            "Features": "ANC, Transparency Mode, IP54 rating"
+          }
+        }
+      },
+      {
+        "image": "assets/sony_wh1000xm5.png",
+        "introduce": {
+          "title": "PREMIUM HEADPHONES",
+          "topic": "Sony WH-1000XM5",
+          "description": "Industry-leading noise cancellation with 30-hour battery life and exceptional sound quality."
+        },
+        "detail": {
+          "title": "Sony WH-1000XM5 Wireless Headphones",
+          "description": "Sony's flagship over-ear headphones with Auto NC Optimizer, 30mm drivers, and ultra-comfortable design.",
+          "specifications": {
+            "Battery Life": "30 hours (ANC on)",
+            "Charging": "USB-C, 3 min charge = 3 hours playback",
+            "Compatibility": "Universal",
+            "Bluetooth": "5.2",
+            "Noise Cancelling": "Yes (Auto NC Optimizer)",
+            "Weight": "250g",
+            "Features": "Touch controls, Speak-to-Chat, Multipoint connection"
+          }
+        }
+      },
+      {
+        "image": "assets/iphone16.png",
+        "introduce": {
+          "title": "STANDARD FLAGSHIP",
+          "topic": "iPhone 16",
+          "description": "A16 Bionic chip, Dynamic Island, and advanced dual-camera system."
+        },
+        "detail": {
+          "title": "iPhone 16 (2024)",
+          "description": "The standard iPhone 16 with 6.1-inch Super Retina XDR display, improved cameras, and all-day battery.",
+          "specifications": {
+            "Display": "6.1-inch OLED, 60Hz",
+            "Chip": "A16 Bionic",
+            "Storage": "128GB / 256GB / 512GB",
+            "Camera": "48MP Main + 12MP Ultra Wide",
+            "Battery": "Up to 20 hours video playback",
+            "OS": "iOS 18"
+          }
+        }
+      },
+      {
+        "image": "assets/iphone16_pro_max.png",
+        "introduce": {
+          "title": "FLAGSHIP PHONE",
+          "topic": "iPhone 16 Pro Max",
+          "description": "A17 Pro chip, Titanium design, and the most advanced camera system on iPhone."
+        },
+        "detail": {
+          "title": "iPhone 16 Pro Max (2024)",
+          "description": "The ultimate iPhone with 6.7-inch Super Retina XDR display, 48MP camera, and all-day battery life.",
+          "specifications": {
+            "Display": "6.7-inch OLED, 120Hz ProMotion",
+            "Chip": "A17 Pro (3nm)",
+            "Storage": "256GB / 512GB / 1TB",
+            "Camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto",
+            "Battery": "Up to 29 hours video playback",
+            "OS": "iOS 18"
+          }
+        }
+      },
+      {
+        "image": "assets/ps5_controller.png",
+        "introduce": {
+          "title": "GAMING CONTROL",
+          "topic": "DualSense Wireless Controller (PS5)",
+          "description": "Haptic feedback, adaptive triggers, and built-in microphone for immersive gameplay."
+        },
+        "detail": {
+          "title": "Sony DualSense (PS5 Controller)",
+          "description": "The revolutionary PS5 controller with advanced haptics, dynamic resistance triggers, and 3D audio support.",
+          "specifications": {
+            "Battery": "Up to 12 hours",
+            "Charging": "USB-C",
+            "Connectivity": "Bluetooth 5.1 / USB",
+            "Features": "Touchpad, Motion Sensors, Built-in Mic",
+            "Compatibility": "PS5, PC, Android/iOS"
+          }
+        }
+      },
+      {
+        "image": "assets/ps_vr2.png",
+        "introduce": {
+          "title": "VIRTUAL REALITY",
+          "topic": "PlayStation VR2",
+          "description": "4K HDR OLED display, eye tracking, and adaptive triggers for next-gen VR gaming."
+        },
+        "detail": {
+          "title": "PlayStation VR2 Headset",
+          "description": "Cutting-edge VR headset designed for PS5 with 110° FOV, Tempest 3D Audio, and inside-out tracking.",
+          "specifications": {
+            "Display": "2000x2040 per eye (OLED HDR)",
+            "Refresh Rate": "90Hz / 120Hz",
+            "Tracking": "Inside-out (6DoF)",
+            "Features": "Eye Tracking, Haptic Feedback",
+            "Compatibility": "PlayStation 5 only"
+          }
+        }
+      },
+      {
+        "image": "assets/macbook_pro.png",
+        "introduce": {
+          "title": "PRO LAPTOP",
+          "topic": "MacBook Pro 16-inch (M3 Max)",
+          "description": "Blazing performance with M3 Max chip, Liquid Retina XDR display, and up to 22-hour battery."
+        },
+        "detail": {
+          "title": "MacBook Pro 16\" (M3 Max, 2024)",
+          "description": "The most powerful MacBook Pro ever with 16-core CPU, 40-core GPU, and 8TB SSD option.",
+          "specifications": {
+            "Chip": "Apple M3 Max (16-core CPU, 40-core GPU)",
+            "RAM": "48GB / 64GB / 128GB",
+            "Storage": "1TB / 2TB / 4TB / 8TB SSD",
+            "Display": "16.2\" Liquid Retina XDR (3456x2234)",
+            "Battery": "Up to 22 hours",
+            "OS": "macOS Sonoma"
+          }
+        }
+      }
+    ] ,
+    "featured_products": [
+      {
+        "title": "Apple AirPods Max",
+        "image": "assets/item1",
+        "rating": 3,
+        "price": "34,999 EGP",
+        "discount_price": "29,999 EGP"
+      },
+      {
+        "title": "Sony WH-1000XM5",
+        "image": "assets/item2",
+        "rating": 2,
+        "price": "26,500 EGP"
+      },
+      {
+        "title": "Samsung Galaxy Watch 6",
+        "image": "assets/item3",
+        "rating": 4,
+        "price": "14,500 EGP",
+        "discount_price": "12,999 EGP"
+      },
+      {
+        "title": "Samsung Galaxy Tab S9",
+        "image": "assets/item4",
+        "rating": 4,
+        "price": "45,999 EGP"
+      },
+      {
+        "title": "Samsung Galaxy Z Fold 5",
+        "image": "assets/item5",
+        "rating": 2,
+        "price": "99,999 EGP",
+        "discount_price": "94,999 EGP"
+      },
+      {
+        "title": "iPhone 15 Pro Max - Silver",
+        "image": "assets/item6",
+        "rating": 4,
+        "price": "89,999 EGP"
+      },
+      {
+        "title": "iPhone 15 Pro Max - Gold",
+        "image": "assets/item7",
+        "rating": 5,
+        "price": "89,999 EGP"
+      },
+      {
+        "title": "iPhone 11",
+        "image": "assets/item8",
+        "rating": 4,
+        "price": "28,500 EGP",
+        "discount_price": "25,999 EGP"
+      }
+    ],
+"newArrivalProducts": {
+    "mobiles": [
+      {
+        "title": "iPhone 15 Pro Max",
+        "image": "assets/iphone15pro",
+        "rating": 5,
+        "price": "79,999 EGP",
+        "discount_price": "71,999 EGP"
+      },
+      {
+        "title": "Samsung Galaxy S24 Ultra",
+        "image": "assets/galaxyS24ultra",
+        "rating": 4,
+        "price": "74,500 EGP",
+        "discount_price": "66,999 EGP"
+      },
+      {
+        "title": "Xiaomi 13T Pro",
+        "image": "assets/xiaomi13tpro",
+        "rating": 4,
+        "price": "27,999 EGP",
+        "discount_price": "24,999 EGP"
+      },
+      {
+        "title": "Google Pixel 8",
+        "image": "assets/pixel8",
+        "rating": 2,
+        "price": "59,999 EGP",
+        "discount_price": "52,999 EGP"
+      }
+    ],
+    "smartWatches": [
+      {
+        "title": "Apple Watch Series 9",
+        "image": "assets/applewatch9",
+        "rating": 5,
+        "price": "23,999 EGP",
+        "discount_price": "20,999 EGP"
+      },
+      {
+        "title": "Samsung Galaxy Watch 6",
+        "image": "assets/galaxywatch6",
+        "rating": 4,
+        "price": "17,500 EGP",
+        "discount_price": "15,499 EGP"
+      },
+      {
+        "title": "Huawei Watch GT 4",
+        "image": "assets/huaweigt4",
+        "rating": 4,
+        "price": "9,999 EGP",
+        "discount_price": "8,499 EGP"
+      },
+      {
+        "title": "Xiaomi Watch S1 Active",
+        "image": "assets/watchs1active",
+        "rating": 3,
+        "price": "5,499 EGP",
+        "discount_price": "4,999 EGP"
+      }
+    ],
+    "cameras": [
+      {
+        "title": "Canon EOS R7",
+        "image": "assets/canonr7",
+        "rating": 5,
+        "price": "45,000 EGP",
+        "discount_price": "39,999 EGP"
+      },
+      {
+        "title": "Sony Alpha a6400",
+        "image": "assets/sonya6400",
+        "rating": 4,
+        "price": "52,000 EGP",
+        "discount_price": "47,499 EGP"
+      },
+      {
+        "title": "Nikon Z30",
+        "image": "assets/nikonz30",
+        "rating": 4,
+        "price": "38,999 EGP",
+        "discount_price": "34,999 EGP"
+      },
+      {
+        "title": "Fujifilm X-S10",
+        "image": "assets/fujifilmxs10",
+        "rating": 4,
+        "price": "41,999 EGP",
+        "discount_price": "37,499 EGP"
+      }
+    ],
+  
+
+    "headphones": [
+      {
+        "title": "Apple AirPods Pro 2",
+        "image": "assets/airpodspro2",
+        "rating": 5,
+        "price": "12,499 EGP",
+        "discount_price": "10,999 EGP"
+      },
+      {
+        "title": "Samsung Galaxy Buds 2 Pro",
+        "image": "assets/galaxybuds2pro",
+        "rating": 4,
+        "price": "7,999 EGP",
+        "discount_price": "6,999 EGP"
+      },
+      {
+        "title": "Sony WF-1000XM5",
+        "image": "assets/sonywf1000xm5",
+        "rating": 5,
+        "price": "13,999 EGP",
+        "discount_price": "11,999 EGP"
+      },
+      {
+        "title": "JBL Tune 230NC",
+        "image": "assets/jbltune230",
+        "rating": 4,
+        "price": "4,299 EGP",
+        "discount_price": "3,799 EGP"
+      }
+    ]
+  }
+
+    }
+  
+    
+  
