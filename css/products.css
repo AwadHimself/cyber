@@ -17,7 +17,7 @@ body {
 }
 
 .main-wrapper .container .filter-menu {
-  width: 25%;
+  flex: 25%;
 }
 .main-wrapper .container .filter-menu .filter .filter-type {
   display: flex;
@@ -69,8 +69,10 @@ body {
   font-size: 11px;
   color: var(--fadedblack);
 }
-.main-wrapper .container .products-container {
-  width: 75%;
+@media (width < 40rem) {
+  .main-wrapper .container .products-container .prod-head {
+    gap: 15px;
+  }
 }
 .main-wrapper .container .products-container .prod-head div {
   color: var(--secondarycharcoal);
@@ -138,4 +140,9 @@ body {
   gap: 8px;
   border-radius: 8px;
   background: var(--Main-Black, #000);
+}
+@media (width < 40rem) {
+  .main-wrapper .container .products-container .products .prod-card .buy-now {
+    padding: 12px 32px;
+  }
 }/*# sourceMappingURL=products.css.map */

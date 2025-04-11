@@ -25,7 +25,7 @@ body{
   .main-wrapper{
     .container{
         .filter-menu{
-            width: 25%;
+            flex: 25%;
             .filter{
                 .filter-type{
                     display: flex;
@@ -82,8 +82,10 @@ body{
         }
 
         .products-container{
-            width: 75%;
             .prod-head{
+                @media (width < 40rem) {
+                    &{gap: 15px; }
+                }
                 div{
                     color: var(--secondarycharcoal);
                     span{
@@ -129,6 +131,7 @@ body{
                         font-style: normal;
                         font-weight: 500;
                         line-height: 24px; /* 150% */
+                        
                     }
                     .price{
                         color: var(--Main-Black, #000);
@@ -149,6 +152,11 @@ body{
                         gap: 8px;
                         border-radius: 8px;
                         background: var(--Main-Black, #000);
+                        @media (width < 40rem) {
+                            &{
+                                padding: 12px 32px;
+                            }
+                        }
                     }
                 }
             }
