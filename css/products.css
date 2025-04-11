@@ -2,7 +2,7 @@
   --mainblack: rgba(0, 0, 0, 1);
   --mainwhite: rgba(255, 255, 255, 1);
   --secondarycharcoal: rgba(46, 46, 46, 1);
-  --fadedblack: #A4A4A4;
+  --fadedblack: #9d9d9d;
 }
 
 body {
@@ -30,6 +30,7 @@ body {
   color: var(--mainblack);
   font-size: 18px;
   letter-spacing: 0.54px;
+  transition: margin 150ms ease-out;
 }
 .main-wrapper .container .filter-menu .filter .results .result-1 input {
   box-sizing: border-box;
@@ -67,4 +68,74 @@ body {
 .main-wrapper .container .filter-menu .filter .results .result-1 span {
   font-size: 11px;
   color: var(--fadedblack);
+}
+.main-wrapper .container .products-container {
+  width: 75%;
+}
+.main-wrapper .container .products-container .prod-head div {
+  color: var(--secondarycharcoal);
+}
+.main-wrapper .container .products-container .prod-head div span {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  color: var(--mainblack);
+}
+.main-wrapper .container .products-container .prod-head select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  display: flex;
+  padding: 8px 150px 8px 16px;
+  min-width: 140px;
+  max-width: 256px;
+  border: 0.5px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 106.667% */
+  letter-spacing: -0.075px;
+}
+.main-wrapper .container .products-container .prod-head .arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 90%;
+  color: #ccc;
+}
+.main-wrapper .container .products-container .products .prod-card {
+  border-radius: 9px;
+  background: #F6F6F6;
+}
+.main-wrapper .container .products-container .products .prod-card .prod-title {
+  color: var(--Main-Black, #000);
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.main-wrapper .container .products-container .products .prod-card .price {
+  color: var(--Main-Black, #000);
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 100% */
+  letter-spacing: 0.72px;
+}
+.main-wrapper .container .products-container .products .prod-card .buy-now {
+  display: flex;
+  color: var(--mainwhite);
+  padding: 12px 64px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: var(--Main-Black, #000);
 }/*# sourceMappingURL=products.css.map */
