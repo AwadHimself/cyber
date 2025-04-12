@@ -36,6 +36,7 @@ function navTogler() {
       });
 
 
+
     let mobileFilters = [mobileBrands, sortedBatteryCapacity, mobileScreenType, sortedScreen, mobileBuiltInMemory];
     for(i=0 ; i<mobileFilters.length ; i++){
         mobileFilters[i].forEach(brand => {
@@ -61,13 +62,19 @@ function navTogler() {
 
   
 
-        var brands  = [] 
-
-        var screenTypes = [];
-
-        function checkboxfun() {
-            let checkbox = document.querySelectorAll(".checkbox");
-            checkbox.forEach(check => {
+    var brands = [];
+    var BatteryCapacity = [];
+    var screenTypes = [];
+    var screenDiagonals = [];
+    var BuiltInMemory = [];
+    
+    function checkboxfun() {
+        let brandCheckbox = document.querySelectorAll(".brand-results .checkbox");
+        let batteryCheckbox = document.querySelectorAll(".Battery-results .checkbox");
+        let screenTypeCheckbox = document.querySelectorAll(".Screen-type-results .checkbox");
+        let screenDiagonalCheckbox = document.querySelectorAll(".Screen-diagonal-results .checkbox");
+        let memoryCheckbox = document.querySelectorAll(".memory-results .checkbox");
+            brandCheckbox.forEach(check => {
                 check.addEventListener("change", () => {
                     if (check.checked) {
                         if (!brands.includes(check.value)) {
@@ -83,19 +90,30 @@ function navTogler() {
                 });
             });
         }
-        window.onload = checkboxfun;
-        
+                
 
 
         function selectedBrand(){
-            mobiles.forEach(mobile => {
-                if(brands.includes(mobile.Brand) &&
-                 parseInt(mobile.BatteryCapacity) > "" && 
-                 parseFloat(mobile.ScreenDiagonal) >= "" &&
-                 parseInt(mobile.BuiltInMemory) >= ""){
-                    console.log(mobile.ModelName);
-                }
-            });        
+            if(brands.length === 0){
+                mobiles.forEach(mobile => {
+                    brands = mobileBrands;
+                    console.log(mobile.ModelName)
+                    brands = []
+                });
+            }else{
+                mobiles.forEach(mobile => {
+                    if(brands.includes(mobile.Brand) &&
+                     parseInt(mobile.BatteryCapacity) > "" && 
+                     parseFloat(mobile.ScreenDiagonal) >= "" &&
+                     parseInt(mobile.BuiltInMemory) >= ""){
+                        console.log(mobile.ModelName);
+                    }
+                });            
+            }
         }
+
+        window.onload = () => {
+            selectedBrand();
+            checkboxfun();}
 
   });
