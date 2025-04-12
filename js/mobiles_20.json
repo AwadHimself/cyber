@@ -1,16 +1,5 @@
 [
   {
-    "ModelName": "Samsung Galaxy S23",
-    "Brand": "Samsung",
-    "BatteryCapacity": "3900 mAh",
-    "ScreenType": "Dynamic AMOLED 2X",
-    "ScreenDiagonal": "6.1 inches",
-    "BuiltInMemory": "256 GB",
-    "PriceEGP": 23000,
-    "Image": "assets/Samsung_Galaxy_S23",
-    "Rating": 5
-  },
-  {
     "ModelName": "Samsung Galaxy A54",
     "Brand": "Samsung",
     "BatteryCapacity": "5000 mAh",
@@ -86,28 +75,6 @@
     "PriceEGP": 19000,
     "Image": "assets/Apple_iPhone_SE_2022",
     "Rating": 3
-  },
-  {
-    "ModelName": "Xiaomi Redmi Note 12",
-    "Brand": "Xiaomi",
-    "BatteryCapacity": "5000 mAh",
-    "ScreenType": "AMOLED",
-    "ScreenDiagonal": "6.67 inches",
-    "BuiltInMemory": "128 GB",
-    "PriceEGP": 9500,
-    "Image": "assets/Xiaomi_Redmi_Note_12",
-    "Rating": 4
-  },
-  {
-    "ModelName": "Xiaomi Poco X5 Pro",
-    "Brand": "Xiaomi",
-    "BatteryCapacity": "5000 mAh",
-    "ScreenType": "AMOLED",
-    "ScreenDiagonal": "6.67 inches",
-    "BuiltInMemory": "256 GB",
-    "PriceEGP": 12500,
-    "Image": "assets/Xiaomi_Poco_X5_Pro",
-    "Rating": 4
   },
   {
     "ModelName": "Xiaomi 13T",
@@ -206,17 +173,6 @@
     "BuiltInMemory": "128 GB",
     "PriceEGP": 7500,
     "Image": "assets/Xiaomi_Redmi_10",
-    "Rating": 3
-  },
-  {
-    "ModelName": "Realme C33",
-    "Brand": "Realme",
-    "BatteryCapacity": "5000 mAh",
-    "ScreenType": "IPS LCD",
-    "ScreenDiagonal": "6.5 inches",
-    "BuiltInMemory": "64 GB",
-    "PriceEGP": 6300,
-    "Image": "assets/Realme_C33",
     "Rating": 3
   }
 ]

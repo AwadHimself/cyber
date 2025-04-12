@@ -32,7 +32,7 @@ body {
   letter-spacing: 0.54px;
   transition: margin 150ms ease-out;
 }
-.main-wrapper .container .filter-menu .filter .results .result-1 input {
+.main-wrapper .container .filter-menu .filter .results .filter input {
   box-sizing: border-box;
   padding: 0px;
   -webkit-appearance: none;
@@ -44,12 +44,12 @@ body {
   border-radius: 5px;
   transition: 0.3s;
 }
-.main-wrapper .container .filter-menu .filter .results .result-1 input:checked {
+.main-wrapper .container .filter-menu .filter .results .filter input:checked {
   background-color: var(--mainblack);
   border-color: var(--mainblack);
   position: relative;
 }
-.main-wrapper .container .filter-menu .filter .results .result-1 input:checked::after {
+.main-wrapper .container .filter-menu .filter .results .filter input:checked::after {
   font-family: "Font Awesome 5 Free";
   content: "\f00c";
   font-weight: 900;
@@ -61,11 +61,11 @@ body {
   transform: translate(-50%, -50%);
   font-size: 15px;
 }
-.main-wrapper .container .filter-menu .filter .results .result-1 input:checked:checked + label {
+.main-wrapper .container .filter-menu .filter .results .filter input:checked:checked + label {
   font-weight: bold;
   color: var(--mainblack);
 }
-.main-wrapper .container .filter-menu .filter .results .result-1 span {
+.main-wrapper .container .filter-menu .filter .results .filter span {
   font-size: 11px;
   color: var(--fadedblack);
 }
