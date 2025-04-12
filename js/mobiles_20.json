@@ -1,0 +1,222 @@
+[
+  {
+    "ModelName": "Samsung Galaxy S23",
+    "Brand": "Samsung",
+    "BatteryCapacity": "3900 mAh",
+    "ScreenType": "Dynamic AMOLED 2X",
+    "ScreenDiagonal": "6.1 inches",
+    "BuiltInMemory": "256 GB",
+    "PriceEGP": 23000,
+    "Image": "assets/Samsung_Galaxy_S23",
+    "Rating": 5
+  },
+  {
+    "ModelName": "Samsung Galaxy A54",
+    "Brand": "Samsung",
+    "BatteryCapacity": "5000 mAh",
+    "ScreenType": "Super AMOLED",
+    "ScreenDiagonal": "6.4 inches",
+    "BuiltInMemory": "128 GB",
+    "PriceEGP": 14000,
+    "Image": "assets/Samsung_Galaxy_A54",
+    "Rating": 4
+  },
+  {
+    "ModelName": "Samsung Galaxy M14",
+    "Brand": "Samsung",
+    "BatteryCapacity": "6000 mAh",
+    "ScreenType": "PLS LCD",
+    "ScreenDiagonal": "6.6 inches",
+    "BuiltInMemory": "64 GB",
+    "PriceEGP": 8500,
+    "Image": "assets/Samsung_Galaxy_M14",
+    "Rating": 4
+  },
+  {
+    "ModelName": "Samsung Galaxy Z Flip5",
+    "Brand": "Samsung",
+    "BatteryCapacity": "3700 mAh",
+    "ScreenType": "Foldable Dynamic AMOLED 2X",
+    "ScreenDiagonal": "6.7 inches",
+    "BuiltInMemory": "512 GB",
+    "PriceEGP": 35000,
+    "Image": "assets/Samsung_Galaxy_Z_Flip5",
+    "Rating": 5
+  },
+  {
+    "ModelName": "Apple iPhone 13",
+    "Brand": "Apple",
+    "BatteryCapacity": "3240 mAh",
+    "ScreenType": "Super Retina XDR OLED",
+    "ScreenDiagonal": "6.1 inches",
+    "BuiltInMemory": "128 GB",
+    "PriceEGP": 27000,
+    "Image": "assets/Apple_iPhone_13",
+    "Rating": 4
+  },
+  {
+    "ModelName": "Apple iPhone 14",
+    "Brand": "Apple",
+    "BatteryCapacity": "3279 mAh",
+    "ScreenType": "Super Retina XDR OLED",
+    "ScreenDiagonal": "6.1 inches",
+    "BuiltInMemory": "256 GB",
+    "PriceEGP": 33000,
+    "Image": "assets/Apple_iPhone_14",
+    "Rating": 5
+  },
+  {
+    "ModelName": "Apple iPhone 15 Pro",
+    "Brand": "Apple",
+    "BatteryCapacity": "3274 mAh",
+    "ScreenType": "LTPO Super Retina XDR OLED",
+    "ScreenDiagonal": "6.1 inches",
+    "BuiltInMemory": "512 GB",
+    "PriceEGP": 46000,
+    "Image": "assets/Apple_iPhone_15_Pro",
+    "Rating": 5
+  },
+  {
+    "ModelName": "Apple iPhone SE (2022)",
+    "Brand": "Apple",
+    "BatteryCapacity": "2018 mAh",
+    "ScreenType": "Retina IPS LCD",
+    "ScreenDiagonal": "4.7 inches",
+    "BuiltInMemory": "64 GB",
+    "PriceEGP": 19000,
+    "Image": "assets/Apple_iPhone_SE_2022",
+    "Rating": 3
+  },
+  {
+    "ModelName": "Xiaomi Redmi Note 12",
+    "Brand": "Xiaomi",
+    "BatteryCapacity": "5000 mAh",
+    "ScreenType": "AMOLED",
+    "ScreenDiagonal": "6.67 inches",
+    "BuiltInMemory": "128 GB",
+    "PriceEGP": 9500,
+    "Image": "assets/Xiaomi_Redmi_Note_12",
+    "Rating": 4
+  },
+  {
+    "ModelName": "Xiaomi Poco X5 Pro",
+    "Brand": "Xiaomi",
+    "BatteryCapacity": "5000 mAh",
+    "ScreenType": "AMOLED",
+    "ScreenDiagonal": "6.67 inches",
+    "BuiltInMemory": "256 GB",
+    "PriceEGP": 12500,
+    "Image": "assets/Xiaomi_Poco_X5_Pro",
+    "Rating": 4
+  },
+  {
+    "ModelName": "Xiaomi 13T",
+    "Brand": "Xiaomi",
+    "BatteryCapacity": "5000 mAh",
+    "ScreenType": "AMOLED",
+    "ScreenDiagonal": "6.67 inches",
+    "BuiltInMemory": "256 GB",
+    "PriceEGP": 21000,
+    "Image": "assets/Xiaomi_13T",
+    "Rating": 5
+  },
+  {
+    "ModelName": "Xiaomi Mi 11 Lite",
+    "Brand": "Xiaomi",
+    "BatteryCapacity": "4250 mAh",
+    "ScreenType": "AMOLED",
+    "ScreenDiagonal": "6.55 inches",
+    "BuiltInMemory": "128 GB",
+    "PriceEGP": 10500,
+    "Image": "assets/Xiaomi_Mi_11_Lite",
+    "Rating": 3
+  },
+  {
+    "ModelName": "Realme C55",
+    "Brand": "Realme",
+    "BatteryCapacity": "5000 mAh",
+    "ScreenType": "IPS LCD",
+    "ScreenDiagonal": "6.72 inches",
+    "BuiltInMemory": "128 GB",
+    "PriceEGP": 7500,
+    "Image": "assets/Realme_C55",
+    "Rating": 4
+  },
+  {
+    "ModelName": "Realme Narzo 60",
+    "Brand": "Realme",
+    "BatteryCapacity": "5000 mAh",
+    "ScreenType": "AMOLED",
+    "ScreenDiagonal": "6.43 inches",
+    "BuiltInMemory": "256 GB",
+    "PriceEGP": 9000,
+    "Image": "assets/Realme_Narzo_60",
+    "Rating": 4
+  },
+  {
+    "ModelName": "Realme GT Neo 3",
+    "Brand": "Realme",
+    "BatteryCapacity": "5000 mAh",
+    "ScreenType": "AMOLED",
+    "ScreenDiagonal": "6.7 inches",
+    "BuiltInMemory": "256 GB",
+    "PriceEGP": 15500,
+    "Image": "assets/Realme_GT_Neo_3",
+    "Rating": 5
+  },
+  {
+    "ModelName": "Realme 11 Pro+",
+    "Brand": "Realme",
+    "BatteryCapacity": "5000 mAh",
+    "ScreenType": "AMOLED",
+    "ScreenDiagonal": "6.7 inches",
+    "BuiltInMemory": "512 GB",
+    "PriceEGP": 18000,
+    "Image": "assets/Realme_11_Pro+",
+    "Rating": 5
+  },
+  {
+    "ModelName": "Samsung Galaxy A34",
+    "Brand": "Samsung",
+    "BatteryCapacity": "5000 mAh",
+    "ScreenType": "Super AMOLED",
+    "ScreenDiagonal": "6.6 inches",
+    "BuiltInMemory": "128 GB",
+    "PriceEGP": 13500,
+    "Image": "assets/Samsung_Galaxy_A34",
+    "Rating": 4
+  },
+  {
+    "ModelName": "Apple iPhone 12",
+    "Brand": "Apple",
+    "BatteryCapacity": "2815 mAh",
+    "ScreenType": "Super Retina XDR OLED",
+    "ScreenDiagonal": "6.1 inches",
+    "BuiltInMemory": "128 GB",
+    "PriceEGP": 24500,
+    "Image": "assets/Apple_iPhone_12",
+    "Rating": 4
+  },
+  {
+    "ModelName": "Xiaomi Redmi 10",
+    "Brand": "Xiaomi",
+    "BatteryCapacity": "5000 mAh",
+    "ScreenType": "IPS LCD",
+    "ScreenDiagonal": "6.5 inches",
+    "BuiltInMemory": "128 GB",
+    "PriceEGP": 7500,
+    "Image": "assets/Xiaomi_Redmi_10",
+    "Rating": 3
+  },
+  {
+    "ModelName": "Realme C33",
+    "Brand": "Realme",
+    "BatteryCapacity": "5000 mAh",
+    "ScreenType": "IPS LCD",
+    "ScreenDiagonal": "6.5 inches",
+    "BuiltInMemory": "64 GB",
+    "PriceEGP": 6300,
+    "Image": "assets/Realme_C33",
+    "Rating": 3
+  }
+]
