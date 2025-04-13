@@ -63,14 +63,14 @@ function navTogler() {
   
 
     
-// تعريف المصفوفات لكل الفلاتر
+
 var brands = [];
 var BatteryCapacitys = [];
 var screenTypes = [];
 var screenDiagonals = [];
 var memorys = [];
 
-// دالة الفلترة الرئيسية
+
 function filterMobiles() {
     const filteredMobiles = mobiles.filter(mobile => {
         return (
@@ -84,7 +84,7 @@ function filterMobiles() {
     displayFilteredMobiles(filteredMobiles);
 }
 
-// دالة التعامل مع كل checkbox
+
 function checkboxHandler(checkboxes, array) {
     checkboxes.forEach(check => {
         check.addEventListener("change", () => {
@@ -96,13 +96,13 @@ function checkboxHandler(checkboxes, array) {
                 const index = array.indexOf(check.value);
                 if (index > -1) array.splice(index, 1);
             }
-            filterMobiles(); // فلترة عامة بعد كل تغيير
+            filterMobiles(); 
             console.log(array);
         });
     });
 }
 
-// دالة بتجمع كل الـ checkboxHandlers
+
 function checkboxfun() {
     let brandCheckbox = document.querySelectorAll(".brand-results .checkbox");
     let batteryCheckbox = document.querySelectorAll(".Battery-results .checkbox");
@@ -120,10 +120,10 @@ function checkboxfun() {
 function displayFilteredMobiles(filteredMobiles) {
     const resultsContainer = document.querySelector(".products");
 
-    // نمسح اللي كان ظاهر قبل كده
+    
     resultsContainer.innerHTML = "";
 
-    // نعمل كرت لكل موبايل
+    
     filteredMobiles.forEach(mobile => {
         const card = document.createElement("div");
         card.className = "prod-card pt-6 pb-6 pl-4 pr-4 flex flex-col gap-3 items-center";
@@ -158,10 +158,10 @@ function displayFilteredMobiles(filteredMobiles) {
 }
 
 
-// عند تحميل الصفحة شغل الفلاتر
+
 window.onload = () => {
-    filterMobiles(); // في البداية نعرض الكل
-    checkboxfun();    // نبدأ نربط الـ checkboxes
+    filterMobiles(); 
+    checkboxfun();    
 };
 
 
