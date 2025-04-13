@@ -63,57 +63,74 @@ function navTogler() {
   
 
     var brands = [];
-    var BatteryCapacity = [];
+    var BatteryCapacitys = [];
     var screenTypes = [];
     var screenDiagonals = [];
     var BuiltInMemory = [];
     
-    function checkboxfun() {
-        let brandCheckbox = document.querySelectorAll(".brand-results .checkbox");
-        let batteryCheckbox = document.querySelectorAll(".Battery-results .checkbox");
-        let screenTypeCheckbox = document.querySelectorAll(".Screen-type-results .checkbox");
-        let screenDiagonalCheckbox = document.querySelectorAll(".Screen-diagonal-results .checkbox");
-        let memoryCheckbox = document.querySelectorAll(".memory-results .checkbox");
-            brandCheckbox.forEach(check => {
-                check.addEventListener("change", () => {
-                    if (check.checked) {
-                        if (!brands.includes(check.value)) {
-                            brands.push(check.value);
-                            selectedBrand()
-                        }
-                    }
-                    else{
-                        brands = brands.filter(brand => brand !== check.value);
-                        selectedBrand()
-                    }
-                    console.log(brands);
-                });
-            });
+// تعريف المصفوفات لكل الفلاتر
+var brands = [];
+var BatteryCapacitys = [];
+var screenTypes = [];
+var screenDiagonals = [];
+var memorys = [];
+
+// دالة الفلترة الرئيسية
+function filterMobiles() {
+    mobiles.forEach(mobile => {
+        if (
+            (brands.length === 0 || brands.includes(mobile.Brand)) &&
+            (BatteryCapacitys.length === 0 || BatteryCapacitys.includes(mobile.BatteryCapacity)) &&
+            (screenTypes.length === 0 || screenTypes.includes(mobile.ScreenType)) &&
+            (screenDiagonals.length === 0 || screenDiagonals.includes(mobile.ScreenDiagonal)) &&
+            (memorys.length === 0 || memorys.includes(mobile.BuiltInMemory))
+        ) {
+            console.log(mobile.ModelName);
         }
-                
+    });
+}
 
-
-        function selectedBrand(){
-            if(brands.length === 0){
-                mobiles.forEach(mobile => {
-                    brands = mobileBrands;
-                    console.log(mobile.ModelName)
-                    brands = []
-                });
-            }else{
-                mobiles.forEach(mobile => {
-                    if(brands.includes(mobile.Brand) &&
-                     parseInt(mobile.BatteryCapacity) > "" && 
-                     parseFloat(mobile.ScreenDiagonal) >= "" &&
-                     parseInt(mobile.BuiltInMemory) >= ""){
-                        console.log(mobile.ModelName);
-                    }
-                });            
+// دالة التعامل مع كل checkbox
+function checkboxHandler(checkboxes, array) {
+    checkboxes.forEach(check => {
+        check.addEventListener("change", () => {
+            if (check.checked) {
+                if (!array.includes(check.value)) {
+                    array.push(check.value);
+                }
+            } else {
+                const index = array.indexOf(check.value);
+                if (index > -1) array.splice(index, 1);
             }
-        }
+            filterMobiles(); // فلترة عامة بعد كل تغيير
+            console.log(array);
+        });
+    });
+}
+
+// دالة بتجمع كل الـ checkboxHandlers
+function checkboxfun() {
+    let brandCheckbox = document.querySelectorAll(".brand-results .checkbox");
+    let batteryCheckbox = document.querySelectorAll(".Battery-results .checkbox");
+    let screenTypeCheckbox = document.querySelectorAll(".Screen-type-results .checkbox");
+    let screenDiagonalCheckbox = document.querySelectorAll(".Screen-diagonal-results .checkbox");
+    let memoryCheckbox = document.querySelectorAll(".memory-results .checkbox");
+
+    checkboxHandler(brandCheckbox, brands);
+    checkboxHandler(batteryCheckbox, BatteryCapacitys);
+    checkboxHandler(screenTypeCheckbox, screenTypes);
+    checkboxHandler(screenDiagonalCheckbox, screenDiagonals);
+    checkboxHandler(memoryCheckbox, memorys);
+}
+
+// عند تحميل الصفحة شغل الفلاتر
+window.onload = () => {
+    filterMobiles(); // في البداية نعرض الكل
+    checkboxfun();    // نبدأ نربط الـ checkboxes
+};
 
         window.onload = () => {
-            selectedBrand();
+            filterMobiles(); 
             checkboxfun();}
 
   });
