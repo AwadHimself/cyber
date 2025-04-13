@@ -17,7 +17,7 @@ body {
 }
 
 .main-wrapper .container .filter-menu {
-  flex: 25%;
+  width: 250px;
 }
 .main-wrapper .container .filter-menu .filter .filter-type {
   display: flex;
@@ -68,6 +68,9 @@ body {
 .main-wrapper .container .filter-menu .filter .results .filter span {
   font-size: 11px;
   color: var(--fadedblack);
+}
+.main-wrapper .container .products-container {
+  width: 100%;
 }
 @media (width < 40rem) {
   .main-wrapper .container .products-container .prod-head {

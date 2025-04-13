@@ -62,11 +62,6 @@ function navTogler() {
 
   
 
-    var brands = [];
-    var BatteryCapacitys = [];
-    var screenTypes = [];
-    var screenDiagonals = [];
-    var BuiltInMemory = [];
     
 // تعريف المصفوفات لكل الفلاتر
 var brands = [];
@@ -77,17 +72,16 @@ var memorys = [];
 
 // دالة الفلترة الرئيسية
 function filterMobiles() {
-    mobiles.forEach(mobile => {
-        if (
+    const filteredMobiles = mobiles.filter(mobile => {
+        return (
             (brands.length === 0 || brands.includes(mobile.Brand)) &&
             (BatteryCapacitys.length === 0 || BatteryCapacitys.includes(mobile.BatteryCapacity)) &&
             (screenTypes.length === 0 || screenTypes.includes(mobile.ScreenType)) &&
             (screenDiagonals.length === 0 || screenDiagonals.includes(mobile.ScreenDiagonal)) &&
             (memorys.length === 0 || memorys.includes(mobile.BuiltInMemory))
-        ) {
-            console.log(mobile.ModelName);
-        }
+        );
     });
+    displayFilteredMobiles(filteredMobiles);
 }
 
 // دالة التعامل مع كل checkbox
@@ -123,14 +117,49 @@ function checkboxfun() {
     checkboxHandler(memoryCheckbox, memorys);
 }
 
+function displayFilteredMobiles(filteredMobiles) {
+    const resultsContainer = document.querySelector(".products");
+
+    // نمسح اللي كان ظاهر قبل كده
+    resultsContainer.innerHTML = "";
+
+    // نعمل كرت لكل موبايل
+    filteredMobiles.forEach(mobile => {
+        const card = document.createElement("div");
+        card.className = "prod-card pt-6 pb-6 pl-4 pr-4 flex flex-col gap-3 items-center";
+
+        const heartIcon = document.createElement("i");
+        heartIcon.className = "fa-regular fa-heart self-end";
+
+        const img = document.createElement("img");
+        img.src = `${mobile.Image}.png` ;
+        img.style.width = "160px"
+        img.style.height = "190px"
+
+        const title = document.createElement("p");
+        title.className = "prod-title";
+        title.textContent = mobile.ModelName;
+
+        const price = document.createElement("p");
+        price.className = "price";
+        price.textContent = mobile.PriceEGP + "EGP";
+
+        const button = document.createElement("button");
+        button.className = "buy-now";
+        button.textContent = "Buy Now";
+
+        card.append(heartIcon, img, title, price, button);
+
+        resultsContainer.appendChild(card);
+    });
+}
+
+
 // عند تحميل الصفحة شغل الفلاتر
 window.onload = () => {
     filterMobiles(); // في البداية نعرض الكل
     checkboxfun();    // نبدأ نربط الـ checkboxes
 };
 
-        window.onload = () => {
-            filterMobiles(); 
-            checkboxfun();}
 
   });
