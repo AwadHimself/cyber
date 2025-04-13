@@ -150,6 +150,9 @@ function displayFilteredMobiles(filteredMobiles) {
 
         card.append(heartIcon, img, title, price, button);
 
+        let numsOfFiltred = document.querySelector(".prod-head div span");
+        numsOfFiltred.innerHTML = `${filteredMobiles.length}`
+
         resultsContainer.appendChild(card);
     });
 }

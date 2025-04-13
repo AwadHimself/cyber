@@ -19,6 +19,11 @@ body {
 .main-wrapper .container .filter-menu {
   width: 250px;
 }
+@media (width < 40rem) {
+  .main-wrapper .container .filter-menu {
+    width: 100%;
+  }
+}
 .main-wrapper .container .filter-menu .filter .filter-type {
   display: flex;
   justify-content: space-between;

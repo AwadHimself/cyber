@@ -26,6 +26,10 @@ body{
     .container{
         .filter-menu{
             width : 250px;
+            @media (width < 40rem) {
+                &{width: 100%; }
+            }
+
             .filter{
                 .filter-type{
                     display: flex;
