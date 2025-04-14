@@ -21,6 +21,9 @@
   opacity: 1;
   scale: 1.2;
 }
+.container .main-info .prod-imges .main-img {
+  flex-basis: 70%;
+}
 .container .main-info .prod-imges .main-img img {
   height: 516px;
   width: -moz-max-content;
