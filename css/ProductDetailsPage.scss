@@ -1,11 +1,35 @@
 .container{
     .main-info{
         .prod-imges{
-            .sub-imgs{
+            @media (width < 40rem) {
+                &{flex-direction: column-reverse;
+                gap: 50px;}
+            }
 
+            .sub-imgs{
+                @media (width < 40rem) {
+                    &{gap: 50px;}
+                }    
+                img{
+                    height: 93px;
+                    width: max-content;
+                    opacity: .5;
+                    cursor: pointer;
+                    &.active{
+                        opacity: 1;
+                        scale: 1.2;
+                    }
+                }
             }
             .main-img{
-                
+                img{
+                    height: 516px;
+                    width: max-content; 
+                    @media (width < 40rem) {
+                        &{height: 400px;}
+                    }    
+       
+                }
             }
         }
         .prod-info{
@@ -51,6 +75,7 @@
                         background-color: black;
                         opacity: .5;
                         scale: .9;
+                        cursor: pointer;
                         &.active{
                             opacity: 1;
                             scale: 1.2;
@@ -81,23 +106,92 @@
                 }
             }
             .tec-info{
-
+                .tec-card{
+                    padding: 16px 8px;
+                    border-radius: 7px;
+                    background: #F4F4F4;
+                    .icon{
+                        font-size: 24px;
+                    }
+                    div{
+                        span:nth-child(1){
+                            color: #A7A7A7;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 16px;
+                        }
+                        span:nth-child(2){
+                            color: #4E4E4E;
+                            font-family: Inter;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 16px;
+                        }
+                    }
+                }
             }
             .des{
-
+                color: #6C6C6C;
+                font-family: Inter;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px; 
+                letter-spacing: 0.42px;
             }
             .btns{
+                button{
+                    display: flex;
+                    padding: 16px 56px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 8px;
+                    flex: 1 0 0;
+                    border-radius: 6px;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: bold;
+                    line-height: 24px; 
+                }
                 .add-wishlist{
-
+                    border: 1px solid var(--Main-Black, #000);
+                    background: #FFF;
                 }
                 .add-tocart{
-
+                    border-radius: 6px;
+                    color: white;
+                    background: var(--Main-Black, #000);
                 }
             }
             .selling-info{
-                
+                div{
+                    .icon{
+                        border-radius: 11px;
+                        background: #F6F6F6;
+                        padding: 16px;
+                    }
+                    div{
+                        span:nth-child(1){
+                            color: #A7A7A7;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 16px;
+                        }
+                        span:nth-child(2){
+                            color: #4E4E4E;
+                            font-family: Inter;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 16px;
+                        }
+                    }
+                    
+                }
             }
-
         }
     }
 }

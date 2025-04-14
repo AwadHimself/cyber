@@ -39,7 +39,7 @@
   </header>
   <div class="Breadcrumbs">
     <div class="container  ">
-      <div class="text-wraper flex gap-4 pt-10 pb-10" >
+      <div class="text-wraper flex gap-4 pt-10" >
         <p>Home</p>
         <p>></p>
         <p>Category</p>
@@ -52,10 +52,10 @@
   </div>
 
   <div class="container">
-    <div class="main-info pt-28 pb-28 pl-10 pr-10 grid grid-cols-2 gap-12">
-        <div class="prod-imges flex gap-12 ">
-            <div class="sub-imgs flex flex-col gap-6">
-                <img src="assets/ProductDetailsPage/prodimg1.png" alt="" srcset="">
+    <div class="main-info pt-28 pb-28  grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 @max-xs:grid-cols-1 gap-12">
+        <div class="prod-imges flex gap-12 items-center h-fit lg:flex-row md:flex-col-reverse sm:flex-col-reverse">
+            <div class="sub-imgs flex lg:flex-col lg:gap-6 md:flex-row sm:flex-row md:gap-20 sm:gap-20 ">
+                <img src="assets/ProductDetailsPage/prodimg1.png" class="active" alt="" srcset="">
                 <img src="assets/ProductDetailsPage/prodimg2.png"  alt="" srcset="">
                 <img src="assets/ProductDetailsPage/prodimg5.png" alt="" srcset="">
                 <img src="assets/ProductDetailsPage/prodimg4.png" alt="" srcset="">
@@ -79,31 +79,31 @@
                     <span style="background-color: #CAD4C5;"></span>    
                 </div>
             </div>
-            <div class="memory-tabs flex gap-4">
+            <div class="memory-tabs flex lg:gap-4 md:gap-4 sm:gap-3 max-sm:gap-1.5">
                 <p class="active">128GB</p>
                 <p>256GB</p>
                 <p>512GB</p>
                 <p class="out-stock">1TB</p>
             </div>
-            <div class="tec-info">
-                <div><i class="fa-solid fa-camera"></i><div> <span>camera</span> <span>12MP</span> </div> </div>
-                <div><i class="fa-solid fa-camera"></i><div> <span>camera</span> <span>12MP</span> </div> </div>
-                <div><i class="fa-solid fa-camera"></i><div> <span>camera</span> <span>12MP</span> </div> </div>
-                <div><i class="fa-solid fa-camera"></i><div> <span>camera</span> <span>12MP</span> </div> </div>
-                <div><i class="fa-solid fa-camera"></i><div> <span>camera</span> <span>12MP</span> </div> </div>
-                <div><i class="fa-solid fa-camera"></i><div> <span>camera</span> <span>12MP</span> </div> </div>
+            <div class="tec-info grid grid-cols-3 gap-4 max-sm:grid-cols-2 max-sm:gap-2">
+                <div class="tec-card flex gap-2 items-center"><i class="icon fa-solid fa-mobile-button"></i></i><div class="flex flex-col "> <span>Screen size </span> <span>6.7"</span> </div> </div>
+                <div class="tec-card flex gap-2 items-center"><i class="icon fa-solid fa-microchip"></i><div class="flex flex-col "> <span>CPU</span> <span>Apple A16 Bionic</span> </div> </div>
+                <div class="tec-card flex gap-2 items-center"><i class="icon fa-solid fa-microchip"></i><div class="flex flex-col "> <span>Number of Cores</span> <span>6</span> </div> </div>
+                <div class="tec-card flex gap-2 items-center"><i class="icon fa-solid fa-camera"></i><div class="flex flex-col "> <span>Main camera </span> <span>48-12 -12 MP</span> </div> </div>
+                <div class="tec-card flex gap-2 items-center"><i class="icon fa-solid fa-camera-rotate"></i><div class="flex flex-col "> <span>Front-camera</span> <span>12MP</span> </div> </div>
+                <div class="tec-card flex gap-2 items-center"><i class="icon fa-solid fa-battery-quarter"></i><div class="flex flex-col "> <span>Battery capacity</span> <span>4323 mAh</span> </div> </div>
             </div>
             <div class="des">
                 Enhanced capabilities thanks toan enlarged display of 6.7 inchesand work without rechargingthroughout the day. Incredible photosas in weak, yesand in bright lightusing the new systemwith two cameras more...
             </div>
-            <div class="btns">
+            <div class="btns pt-2 pb-2 flex gap-4 max-sm:flex-col">
                 <button class="add-wishlist">Add to Wishlist</button>
                 <button class="add-tocart">Add to Card</button>
             </div>
-            <div class="selling-info">
-                <div><i class="fa-solid fa-truck"></i> <span>Free Delivery  <span>1-2 Days</span></span></div>
-                <div><i class="fa-solid fa-truck"></i> <span>Free Delivery  <span>1-2 Days</span></span></div>
-                <div><i class="fa-solid fa-truck"></i> <span>Free Delivery  <span>1-2 Days</span></span></div>
+            <div class="selling-info flex gap-8 max-sm:gap-20 max-sm:text-center max-sm:justify-center">
+                <div class="flex gap-2 items-center max-sm:flex-col "><i class="icon fa-solid fa-truck"></i> <div class="flex flex-col"><span>Free Delivery</span> <span>1-2 Days</span></div></div>
+                <div class="flex gap-2 items-center max-sm:flex-col "><i class="icon fa-solid fa-truck"></i> <div class="flex flex-col"><span>In Stock</span> <span>1-2 Days</span></div></div>
+                <div class="flex gap-2 items-center max-sm:flex-col "><i class="icon fa-solid fa-truck"></i> <div class="flex flex-col"><span>Free Delivery</span> <span>1-2 Days</span></div></div>
             </div>
         </div>    
     </div>
