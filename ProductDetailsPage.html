@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/products.css" />
+    <link rel="stylesheet" href="css/ProductDetailsPage.css" />
+    <!-- tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+  <body >
+    <header class="p-5 header gap-3 ">
+      <div class="logo">CYBER</div>
+      <div class="search">
+          <i class="fa-solid fa-magnifying-glass mag"></i>
+          <input type="search" placeholder="search">
+      </div>
+      <nav class="nav">
+          <a href="" class="active">Home</a>
+          <a href="">About</a>
+          <a href="">Contact Us</a>
+          <a href="">Blog</a>
+          <div class="icons d-flex gap-3">
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-solid fa-cart-shopping fa-bounce"></i>
+              <i class="fa-solid fa-user"></i>
+          </div>
+      </nav>
+      <i class="fa-solid fa-bars burger" onclick="navTogler()"></i>
+  </header>
+  <div class="Breadcrumbs">
+    <div class="container  ">
+      <div class="text-wraper flex gap-4 pt-10 pb-10" >
+        <p>Home</p>
+        <p>></p>
+        <p>Category</p>
+        <p>></p>
+        <p>Smart Phones</p>
+        <p>></p>
+        <p>iPhone 14 Pro Max</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="main-info pt-28 pb-28 pl-10 pr-10 grid grid-cols-2 gap-12">
+        <div class="prod-imges flex gap-12 ">
+            <div class="sub-imgs flex flex-col gap-6">
+                <img src="assets/ProductDetailsPage/prodimg1.png" alt="" srcset="">
+                <img src="assets/ProductDetailsPage/prodimg2.png"  alt="" srcset="">
+                <img src="assets/ProductDetailsPage/prodimg5.png" alt="" srcset="">
+                <img src="assets/ProductDetailsPage/prodimg4.png" alt="" srcset="">
+            </div>
+            <div class="main-img">
+                <img src="assets/ProductDetailsPage/prodimg3.png" alt="" srcset="">
+            </div>
+        </div>
+        <div class="prod-info flex flex-col gap-6">
+            <h1 class="prod-name">Apple iPhone 14 Pro Max</h1>
+            <div class="price-div flex gap-4 items-center">
+                <span class="price">$1399</span>
+                <span class="discount">$1499</span>
+            </div>
+            <div class="color-div flex gap-6 items-center">
+                <p>Select color :</p> 
+                <div class="colors flex gap-2 ">
+                    <span style="background-color: #4b4845;" class="active"></span>
+                    <span style="background-color: #F2ADDA;"></span>
+                    <span style="background-color: #B0D4D2;"></span>
+                    <span style="background-color: #CAD4C5;"></span>    
+                </div>
+            </div>
+            <div class="memory-tabs flex gap-4">
+                <p class="active">128GB</p>
+                <p>256GB</p>
+                <p>512GB</p>
+                <p class="out-stock">1TB</p>
+            </div>
+            <div class="tec-info">
+                <div><i class="fa-solid fa-camera"></i><div> <span>camera</span> <span>12MP</span> </div> </div>
+                <div><i class="fa-solid fa-camera"></i><div> <span>camera</span> <span>12MP</span> </div> </div>
+                <div><i class="fa-solid fa-camera"></i><div> <span>camera</span> <span>12MP</span> </div> </div>
+                <div><i class="fa-solid fa-camera"></i><div> <span>camera</span> <span>12MP</span> </div> </div>
+                <div><i class="fa-solid fa-camera"></i><div> <span>camera</span> <span>12MP</span> </div> </div>
+                <div><i class="fa-solid fa-camera"></i><div> <span>camera</span> <span>12MP</span> </div> </div>
+            </div>
+            <div class="des">
+                Enhanced capabilities thanks toan enlarged display of 6.7 inchesand work without rechargingthroughout the day. Incredible photosas in weak, yesand in bright lightusing the new systemwith two cameras more...
+            </div>
+            <div class="btns">
+                <button class="add-wishlist">Add to Wishlist</button>
+                <button class="add-tocart">Add to Card</button>
+            </div>
+            <div class="selling-info">
+                <div><i class="fa-solid fa-truck"></i> <span>Free Delivery  <span>1-2 Days</span></span></div>
+                <div><i class="fa-solid fa-truck"></i> <span>Free Delivery  <span>1-2 Days</span></span></div>
+                <div><i class="fa-solid fa-truck"></i> <span>Free Delivery  <span>1-2 Days</span></span></div>
+            </div>
+        </div>    
+    </div>
+  </div>
+
+  </body>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+
+</html>

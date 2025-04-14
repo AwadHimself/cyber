@@ -1,0 +1,103 @@
+.container{
+    .main-info{
+        .prod-imges{
+            .sub-imgs{
+
+            }
+            .main-img{
+                
+            }
+        }
+        .prod-info{
+            .prod-name{
+                color: #000;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 40px; 
+            }
+            .price-div{
+                .price{
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 48px; 
+                    letter-spacing: 0.96px;
+                }
+                .discount{
+                    color: #A0A0A0;
+                    font-family: Inter;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 32px; 
+                    letter-spacing: 0.72px;
+                    text-decoration: line-through;
+                }
+            }
+            .color-div{
+                p{
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; 
+                }
+                .colors{
+                    span{
+                        display: block;
+                        width: 32px;
+                        height: 32px;
+                        border-radius: 50%;
+                        background-color: black;
+                        opacity: .5;
+                        scale: .9;
+                        &.active{
+                            opacity: 1;
+                            scale: 1.2;
+                        }
+                    }
+                }
+            }
+            .memory-tabs{
+                p{
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 16px; 
+                    border-radius: 8px;
+                    padding: 16px 24px;
+                    border: 1px solid #D5D5D5;  
+                    color: #7d7a7a;  
+                    cursor: pointer;
+                    &.active{
+                        color: #000;
+                        font-weight: bold;
+                        border: 1px solid var(--Main-Black, #000);    
+                    }
+                    &.out-stock{
+                        opacity: .5;
+                        cursor: not-allowed;
+                    }
+                }
+            }
+            .tec-info{
+
+            }
+            .des{
+
+            }
+            .btns{
+                .add-wishlist{
+
+                }
+                .add-tocart{
+
+                }
+            }
+            .selling-info{
+                
+            }
+
+        }
+    }
+}

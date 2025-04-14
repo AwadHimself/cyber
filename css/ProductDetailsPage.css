@@ -1,0 +1,63 @@
+.container .main-info .prod-info .prod-name {
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+.container .main-info .prod-info .price-div .price {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0.96px;
+}
+.container .main-info .prod-info .price-div .discount {
+  color: #A0A0A0;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.72px;
+  text-decoration: line-through;
+}
+.container .main-info .prod-info .color-div p {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.container .main-info .prod-info .color-div .colors span {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: black;
+  opacity: 0.5;
+  scale: 0.9;
+}
+.container .main-info .prod-info .color-div .colors span.active {
+  opacity: 1;
+  scale: 1.2;
+}
+.container .main-info .prod-info .memory-tabs p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  border-radius: 8px;
+  padding: 16px 24px;
+  border: 1px solid #D5D5D5;
+  color: #7d7a7a;
+  cursor: pointer;
+}
+.container .main-info .prod-info .memory-tabs p.active {
+  color: #000;
+  font-weight: bold;
+  border: 1px solid var(--Main-Black, #000);
+}
+.container .main-info .prod-info .memory-tabs p.out-stock {
+  opacity: 0.5;
+  cursor: not-allowed;
+}/*# sourceMappingURL=ProductDetailsPage.css.map */
