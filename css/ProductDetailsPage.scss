@@ -15,6 +15,7 @@
                     width: max-content;
                     opacity: .5;
                     cursor: pointer;
+                    transition: .3s;
                     &.active{
                         opacity: 1;
                         scale: 1.2;
@@ -25,6 +26,7 @@
                 img{
                     height: 516px;
                     width: max-content; 
+                    transition: .3s;
                     @media (width < 40rem) {
                         &{height: 400px;}
                     }    
@@ -68,6 +70,7 @@
                 }
                 .colors{
                     span{
+                        transition: .3s;
                         display: block;
                         width: 32px;
                         height: 32px;
@@ -85,6 +88,7 @@
             }
             .memory-tabs{
                 p{
+                    transition: .3s;
                     font-size: 14px;
                     font-style: normal;
                     font-weight: 500;
@@ -101,6 +105,7 @@
                     }
                     &.out-stock{
                         opacity: .5;
+                        pointer-events: none;
                         cursor: not-allowed;
                     }
                 }

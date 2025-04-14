@@ -15,6 +15,7 @@
   width: max-content;
   opacity: 0.5;
   cursor: pointer;
+  transition: 0.3s;
 }
 .container .main-info .prod-imges .sub-imgs img.active {
   opacity: 1;
@@ -24,6 +25,7 @@
   height: 516px;
   width: -moz-max-content;
   width: max-content;
+  transition: 0.3s;
 }
 @media (width < 40rem) {
   .container .main-info .prod-imges .main-img img {
@@ -61,6 +63,7 @@
   line-height: 24px;
 }
 .container .main-info .prod-info .color-div .colors span {
+  transition: 0.3s;
   display: block;
   width: 32px;
   height: 32px;
@@ -75,6 +78,7 @@
   scale: 1.2;
 }
 .container .main-info .prod-info .memory-tabs p {
+  transition: 0.3s;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -92,6 +96,7 @@
 }
 .container .main-info .prod-info .memory-tabs p.out-stock {
   opacity: 0.5;
+  pointer-events: none;
   cursor: not-allowed;
 }
 .container .main-info .prod-info .tec-info .tec-card {
