@@ -22,7 +22,7 @@ function slider(){
     handleActiveclasses(subImgs)
     subImgs.forEach(img => {
         img.addEventListener("click" , ()=>{
-            mainImg.src = img.src
+            mainImg.src = img.src 
         })
     });
 }

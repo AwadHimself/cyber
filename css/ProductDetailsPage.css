@@ -175,4 +175,63 @@
   font-style: normal;
   font-weight: 500;
   line-height: 16px;
+}
+
+.details {
+  background: #FAFAFA;
+}
+.details .details-container {
+  border-radius: 8px;
+  background: #FFF;
+}
+.details .details-container h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+.details .details-container p {
+  color: #9D9D9D;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.details .details-container .deails-div .title {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.details .details-container .deails-div .detail {
+  padding-bottom: 8px;
+  align-items: flex-end;
+  align-self: stretch;
+  border-bottom: 0.5px solid #CDCDCD;
+}
+.details .details-container .deails-div .detail span:nth-child(1), .details .details-container .deails-div .detail span:nth-child(2) {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.details .details-container button {
+  display: flex;
+  padding: 12px 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #545454;
+  background: #FFF;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
 }/*# sourceMappingURL=ProductDetailsPage.css.map */
