@@ -183,6 +183,7 @@
 .details .details-container {
   border-radius: 8px;
   background: #FFF;
+  padding: 48px 40px;
 }
 .details .details-container h1 {
   color: #000;
@@ -210,7 +211,7 @@
 }
 .details .details-container .deails-div .detail {
   padding-bottom: 8px;
-  align-items: flex-end;
+  align-items: flex-start;
   align-self: stretch;
   border-bottom: 0.5px solid #CDCDCD;
 }
