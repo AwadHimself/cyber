@@ -133,7 +133,7 @@
 
   <div class="reviews-sec container">
     <h1>Reviews</h1>
-    <div class="ovarall-rating flex gap-16 items-start p-10">
+    <div class="ovarall-rating  flex justify-between items-start p-7 lg:flex-row md:flex-col sm:flex-col max-sm:flex-col  md:items-center sm:items-center max-sm:items-center md:gap-10 sm:gap-10 max-sm:gap-10">
         <div class="rating flex flex-col gap-4 p-8 items-center" >
             <p>4.8</p>
             <span>of 125 reviews</span>
@@ -145,11 +145,35 @@
                 <i class="fa fa-star-half" style="color: orange"; ></i>
             </div>
         </div>
-        <div class="Schedules flex gap-7">
-            <div class="Schedule flex ">
+        <div class="Schedules flex gap-7  flex-col lg:w-2/3 md:w-full sm:w-full max-sm:w-full ">
+            <div class="Schedule flex items-center gap-4">
                 <span>Excellent</span>
-                <div class="flex"><span class="progress"></span></div>
+                <div class="flex"><span><span class="progress" style="width: 80%;"></span></span></div>
                 <span>100</span>
+                
+            </div>
+            <div class="Schedule flex items-center gap-4">
+                <span>Good</span>
+                <div class="flex"><span><span class="progress" style="width: 50%;"></span></span></div>
+                <span>11</span>
+                
+            </div>
+            <div class="Schedule flex items-center gap-4">
+                <span>Average</span>
+                <div class="flex"><span><span class="progress" style="width: 20%;"></span></span></div>
+                <span>3</span>
+                
+            </div>
+            <div class="Schedule flex  items-center gap-4">
+                <span>Below Average</span>
+                <div class="flex"><span><span class="progress" style="width: 30%;"></span></span></div>
+                <span>8</span>
+                
+            </div>
+            <div class="Schedule flex items-center gap-4">
+                <span>Poor</span>
+                <div class="flex"><span><span class="progress" style="width: 5%;"></span></span></div>
+                <span>1</span>
                 
             </div>
         </div>
