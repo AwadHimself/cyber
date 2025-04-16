@@ -257,9 +257,62 @@
             gap: 8px;
             border-radius: 8px;
             border: 1px solid #545454;
-            background: #FFF;
             width: fit-content;
             margin: auto;
+            &:hover{
+                background-color: #000;
+            }
         }
+    }
+}
+
+.reviews-sec{
+    h1{
+        
+    }
+    .ovarall-rating{
+        .rating{
+            border-radius: 25px;
+            background: #FAFAFA;
+            p{
+                color: var(--Main-Black, #000);
+                text-align: center;
+                font-family: Inter;
+                font-size: 56px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 56px; /* 100% */
+            }
+            span{
+                color: #A7A7A7;
+                text-align: center;
+                font-family: Inter;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 16px; /* 106.667% */
+            }
+            .stars{
+                i{
+    
+                }
+            }           
+        }
+        .Schedules{
+            width: 60%;
+            .Schedule{
+                div{
+                    span{
+                        
+                        width: 100%;
+                        height: 3px;
+                        background-color: #9D9D9D;
+                    }
+                }
+                span:nth-child(3){
+    
+                }
+            }
+        }    
     }
 }
