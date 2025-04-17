@@ -249,22 +249,23 @@
                 }
             }
         }
-        button{
-            display: flex;
-            padding: 12px 56px;
-            justify-content: center;
-            align-items: center;
-            gap: 8px;
-            border-radius: 8px;
-            border: 1px solid #545454;
-            width: fit-content;
-            margin: auto;
-            &:hover{
-                background-color: #000;
-            }
-        }
     }
 }
+.view-more{
+    display: flex;
+    padding: 12px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #545454;
+    width: fit-content;
+    margin: auto;
+    &:hover{
+        background-color: #000;
+    }
+}
+
 
 .reviews-sec{
     h1{
@@ -334,5 +335,40 @@
                 }
             }
         }    
+    }
+}
+
+.testimonial{
+    border-radius: 10px;
+    background: #FAFAFA;
+    .testimonials-info{
+        .user-info{
+            p:nth-child(1){
+                color: var(--Main-Black, #000);
+                font-family: Inter;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px; /* 141.176% */
+            }
+            p:nth-child(2){
+                color: var(--Main-Black, #000);
+                text-align: right;
+                font-family: Inter;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 16px; /* 114.286% */
+                opacity: .2;
+            }
+        }
+        .user-review{
+            color: #7E7E7E;
+            font-family: Inter;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 160% */
+        }
     }
 }

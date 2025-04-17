@@ -223,7 +223,8 @@
   font-weight: 400;
   line-height: 24px; /* 150% */
 }
-.details .details-container button {
+
+.view-more {
   display: flex;
   padding: 12px 56px;
   justify-content: center;
@@ -235,7 +236,7 @@
   width: fit-content;
   margin: auto;
 }
-.details .details-container button:hover {
+.view-more:hover {
   background-color: #000;
 }
 
@@ -290,4 +291,34 @@
 }
 .reviews-sec .ovarall-rating .Schedules .Schedule div span:nth-child(1) .progress {
   background-color: orange;
+}
+.testimonial {
+  border-radius: 10px;
+  background: #FAFAFA;
+}
+.testimonial .testimonials-info .user-info p:nth-child(1) {
+  color: var(--Main-Black, #000);
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 141.176% */
+}
+.testimonial .testimonials-info .user-info p:nth-child(2) {
+  color: var(--Main-Black, #000);
+  text-align: right;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  opacity: 0.2;
+}
+.testimonial .testimonials-info .user-review {
+  color: #7E7E7E;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 160% */
 }/*# sourceMappingURL=ProductDetailsPage.css.map */
