@@ -180,7 +180,7 @@ fetch("js/date.json")
 
         let newArrivalItem = document.createElement("div");
         newArrivalItem.classList.add(
-            "new-arrival-item", "col-lg-4", "col-md-6", "col-sm-12",
+            "new-arrival-item", 
             "bg-white", "d-flex", "flex-column", "justify-content-center",
             "align-items-center", "gap-2", "position-relative"
         );

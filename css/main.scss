@@ -605,6 +605,8 @@ header {
   }
   & p{
     font-weight: bold;
+    width: 160px;
+    text-align: center;
   }
   .star{
     color: #FFD43B
@@ -676,7 +678,7 @@ header {
   .new-arrival-icon{
     transition: .3s;
     @extend .cat-icon;
-    width: 279px;
+    width: -webkit-fill-available;
     height: 110px;
     &.active{
       background-color: #7E1DFB;
@@ -781,7 +783,7 @@ header {
             font-size: 7px;
           }
           span:nth-child(2){
-            font-size: 35px;
+            font-size: 30px;
           }  
         }
         @media screen and (max-width: 767px){

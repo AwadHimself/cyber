@@ -604,6 +604,8 @@ header .burger {
 }
 .item-prod p, .new-arrival .new-arrival-item p, .featured .f-item p {
   font-weight: bold;
+  width: 160px;
+  text-align: center;
 }
 .item-prod .star, .new-arrival .new-arrival-item .star, .featured .f-item .star {
   color: #FFD43B;
@@ -667,7 +669,7 @@ header .burger {
 }
 .new-arrival .new-arrival-icon {
   transition: 0.3s;
-  width: 279px;
+  width: -webkit-fill-available;
   height: 110px;
 }
 .new-arrival .new-arrival-icon.active {
@@ -757,7 +759,7 @@ header .burger {
   font-size: 7px;
 }
 .deals-of-day .deal .deal-info-container .deal-info .count-down span:nth-child(2) {
-  font-size: 35px;
+  font-size: 30px;
 }
 @media screen and (max-width: 767px) {
   .deals-of-day .deal .deal-info-container .deal-info {

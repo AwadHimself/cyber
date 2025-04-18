@@ -13,10 +13,12 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <!-- Main Template CSS File -->
     <link rel="stylesheet" href="css/main.css" />
+
+
 </head>
 
 <body>
-    <header class="p-5 header gap-3 ">
+    <header class="p-5 header gap-3 lg:justify-between md:justify-center sm:justify-center max-sm:justify-center!">
         <div class="logo">CYBER</div>
         <div class="search">
             <i class="fa-solid fa-magnifying-glass mag"></i>
@@ -28,14 +30,14 @@
             <a href="">Contact Us</a>
             <a href="">Blog</a>
             <div class="icons d-flex gap-3">
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa fa-heart"></i>
                 <i class="fa-solid fa-cart-shopping fa-bounce"></i>
                 <i class="fa-solid fa-user"></i>
             </div>
         </nav>
         <i class="fa-solid fa-bars burger" onclick="navTogler()"></i>
     </header>
-
+    
     <div class="carousel">
         <div class="list">
 
@@ -227,9 +229,9 @@
                 <div class="sub-heading">NEW ARRIVAL PRODUCT.</div>
             </div>
 
-            <div class="new-arrival-pag row gap-2 mt-3 justify-content-center ">
+            <div class="new-arrival-pag  gap-3 mt-3 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 max-sm:grid-cols-2 items-center ">
                 <div
-                    class="new-arrival-icon col-lg-3 col-md-6 col-sm-6  d-flex flex-column align-items-center justify-content-center gap-1  ">
+                    class="new-arrival-icon  d-flex flex-column align-items-center justify-content-center gap-1  ">
                     <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_2603_1946)">
@@ -252,7 +254,7 @@
                     <p>MOBILE</p>
                 </div>
                 <div
-                    class="new-arrival-icon col-lg-3 col-md-6 col-sm-6  d-flex flex-column align-items-center justify-content-center gap-1 ">
+                    class="new-arrival-icon  d-flex flex-column align-items-center justify-content-center gap-1 ">
                     <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_2603_1940)">
@@ -279,7 +281,7 @@
                     <p>SMART WARCH</p>
                 </div>
                 <div
-                    class="new-arrival-icon col-lg-3 col-md-6 col-sm-6  d-flex flex-column align-items-center justify-content-center gap-1 ">
+                    class="new-arrival-icon  d-flex flex-column align-items-center justify-content-center gap-1 ">
                     <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_2603_1937)">
@@ -299,7 +301,7 @@
                     <p>CAMERA</p>
                 </div>
                 <div
-                    class="new-arrival-icon col-lg-3 col-md-6 col-sm-6  d-flex flex-column align-items-center justify-content-center gap-1 ">
+                    class="new-arrival-icon  d-flex flex-column align-items-center justify-content-center gap-1 ">
                     <svg width="48" height="49" viewBox="0 0 48 49" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_2603_1943)" filter="url(#filter0_d_2603_1943)">
@@ -334,12 +336,10 @@
                         </defs>
                     </svg>
                     <p>HEADPHONE</p>
-
                 </div>
-
             </div>
             <div class="n-a">
-                <div class="new-arrival-container row row-gap-5 mt-3">
+                <div class="new-arrival-container grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 max-sm:grid-cols-1  gap-5 mt-3">
                 </div>
             </div>
 
@@ -522,6 +522,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </body>
 
 </html>
