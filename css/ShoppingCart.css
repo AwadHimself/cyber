@@ -1,0 +1,55 @@
+.cart .divder .ordered-prods h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 100% */
+}
+.cart .divder .ordered-prods .order:not(:last-child) {
+  border-bottom: 0.5px solid #E0E0E0;
+}
+.cart .divder .ordered-prods .order .order-info {
+  flex: 1;
+}
+.cart .divder .ordered-prods .order .order-info .title, .cart .divder .ordered-prods .order .order-info .sub-title, .cart .divder .ordered-prods .order .order-info .id {
+  color: var(--Main-Black, #000);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.cart .divder .ordered-prods .order .order-info .id {
+  font-size: 14px;
+}
+.cart .divder .ordered-prods .order .amount .num {
+  display: flex;
+  padding: 8px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  border: 0.5px solid #D9D9D9;
+}
+.cart .divder .ordered-prods .order .amount .minus, .cart .divder .ordered-prods .order .amount .plus {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  border-radius: 4px;
+  background: #F2F2F2;
+  border: 0.5px solid #D9D9D9;
+}
+.cart .divder .ordered-prods .order .amount .price {
+  color: var(--Main-Black, #000);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  letter-spacing: 0.6px;
+}/*# sourceMappingURL=ShoppingCart.css.map */
