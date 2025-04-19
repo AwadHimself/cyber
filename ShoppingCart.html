@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="wid pt-2th=device-wid pt-2th, initial-scale=1.0">
-    <title>Product Details</title>
+    <title>Cart</title>
     <!-- bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Render All Elements Normally -->
@@ -41,85 +41,85 @@
   </header>
 
     <div class="cart container pt-32 pb-32 pl-20 pr-20">
-        <div class="divder flex  gap-12 justify-between lg:flex-row md:flex-col sm:flex-col max-sm:flex-col">
+        <div class="divder flex  gap-12  lg:flex-row md:flex-col sm:flex-col max-sm:flex-col">
             <div class="ordered-prods flex flex-col gap-10">
                 <h1 class="pb-10">Shopping Cart</h1>
-                <div class="order flex items-center gap-3 pt-4 pb-8">
+                <div class="order flex lg:flex-nowrap md:flex-nowrap  sm:flex-wrap max-sm:flex-wrap  items-center gap-3 pt-4 pb-8">
                     <img src="assets/cart/image 56.png" alt="">
                     <div class="order-info">
                         <p class="title">Apple iPhone 14 Pro Max</p>
                         <p class="sub-title">128Gb Deep Purple</p>
                         <p class="id pt-2">#25139526913984</p>    
                     </div>
-                    <div class="amount flex gap-2 justify-center items-center ">
+                    <div class="amount flex gap-2 justify-center items-center sm:w-full max-sm:w-full ">
                         <button class="minus">-</button>
                         <p class="num">1</p>
                         <button class="plus">+</button>
                         <p class="price pl-4">$1399 </p>
-                        <p class="pl-4">X</p>
+                        <p class="pl-4 cursor-pointer">X</p>
                     </div>
                 </div>
-                <div class="order flex items-center gap-3 pt-4 pb-8">
+                <div class="order flex lg:flex-nowrap md:flex-nowrap sm:flex-wrap max-sm:flex-wrap items-center gap-3 pt-4 pb-8">
                     <img src="assets/cart/image 56-2.png" alt="">
                     <div class="order-info">
                         <p class="title">Apple Watch Series 9 </p>
                         <p class="sub-title">GPS 41mm Starlight <br> Aluminium </p>
                         <p class="id pt-2">##63632324</p>    
                     </div>
-                    <div class="amount flex gap-2 justify-center items-center">
+                    <div class="amount flex gap-2 justify-center items-center sm:w-full max-sm:w-full">
                         <button class="minus">-</button>
                         <p class="num">1</p>
                         <button class="plus">+</button>
                         <p class="price pl-4">$399 </p>
-                        <p class="pl-4">X</p>
+                        <p class="pl-4 cursor-pointer">X</p>
                     </div>
                 </div>
-                <div class="order flex items-center gap-3 pt-4 pb-8">
+                <div class="order flex lg:flex-nowrap md:flex-nowrap sm:flex-wrap max-sm:flex-wrap items-center gap-3 pt-4 pb-8">
                     <img src="assets/cart/image 56-1.png" alt="">
                     <div class="order-info">
                         <p class="title">AirPods Max Silver</p>
                         <p class="id pt-2">#53459358345</p>    
                     </div>
-                    <div class="amount flex gap-2 justify-center items-center">
+                    <div class="amount flex gap-2 justify-center items-center sm:w-full max-sm:w-full">
                         <button class="minus">-</button>
                         <p class="num">1</p>
                         <button class="plus">+</button>
                         <p class="price pl-4">$599 </p>
-                        <p class="pl-4">X</p>
+                        <p class="pl-4 cursor-pointer">X</p>
                     </div>
                 </div>
             </div>
-            <div class="order-sum">
-                <h1>Order Summary</h1>
-                <div class="dis-prom">
-                    <div class="discount-code">
+            <div class="order-sum h-fit p-14">
+                <h1 class=>Order Summary</h1>
+                <div class="dis-prom mt-10 flex flex-col gap-6">
+                    <div class="discount-code flex flex-col gap-2">
                         <p>Discount code / Promo code</p>
                         <input type="text" placeholder="code">
                     </div>
-                    <div class="bonus-card-number">
+                    <div class="bonus-card-number flex flex-col gap-2">
                         <p>Your bonus card number</p>
-                        <div>                        
+                        <div class="relative">                        
                             <input type="text" placeholder="code">
                             <button>Apply</button>
                         </div>
                     </div>
                 </div>
-                <div class="order-calc">
-                    <div class="flex justify-between">
+                <div class="order-calc mt-6 flex flex-col gap-4 ">
+                    <div class="flex justify-between Subtotal">
                         <p>Subtotal</p>
-                        <p>$2347</p>
+                        <span>$2347</span>
                     </div>
                     <div class="flex justify-between">
                         <p>Estimated Tax</p>
-                        <p>$50</p>
+                        <span>$50</span>
                     </div>
                     <div class="flex justify-between">
                         <p>Estimated shipping & Handling</p>
-                        <p>$29</p>
+                        <span>$29</span>
                     </div>
-                    <div class="flex justify-between">
+                    <div class="flex justify-between Total">
                         <p>Total</p>
-                        <p>$2426</p>
+                        <span>$2426</span>
                     </div>
                 </div>
             </div>
