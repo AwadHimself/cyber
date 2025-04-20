@@ -1,0 +1,103 @@
+.steps-chart .step {
+  cursor: pointer;
+  opacity: 0.2;
+}
+.steps-chart .step.active {
+  opacity: 1;
+}
+.steps-chart .step .icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.steps-chart .step div span {
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: 0.42px;
+}
+.steps-chart .step div p {
+  color: #000;
+  font-family: Inter;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 126.316% */
+  letter-spacing: 0.57px;
+}
+
+.add-con h1 {
+  color: var(--Space-Cadet, #17183B);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 120% */
+}
+.add-con .address {
+  border-radius: 7px;
+  background: #F6F6F6;
+  padding: 24px;
+  position: relative;
+}
+.add-con .address .add-details div p:nth-child(1) {
+  color: #17183B;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.15px;
+}
+.add-con .address .add-details div p:nth-child(2) {
+  display: flex;
+  padding: 4px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: var(--Main-Black, #000);
+  color: #FFF;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.add-con .address .add-details .icons {
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  gap: 24px;
+  display: flex;
+}
+.add-con .address input[type=radio] {
+  transition: 0.3s;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  outline: 2px solid black;
+}
+.add-con .address input[type=radio]:checked {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  outline: 2px solid black;
+  border: 4px solid white;
+  background-color: black;
+}/*# sourceMappingURL=steps.css.map */

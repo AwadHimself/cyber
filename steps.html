@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wid pt-2th=device-wid pt-2th, initial-scale=1.0">
+    <title>Cart</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/steps.css">
+    <!-- tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+  <body >
+    <header class="p-5 header gap-3 lg:justify-between md:justify-center sm:justify-center max-sm:justify-center!">
+      <div class="logo">CYBER</div>
+      <div class="search">
+          <i class="fa-solid pt-2 fa-magnifying-glass mag"></i>
+          <input type="search" placeholder="search">
+      </div>
+      <nav class="nav">
+          <a href="" class="active">Home</a>
+          <a href="">About</a>
+          <a href="">Contact Us</a>
+          <a href="">Blog</a>
+          <div class="icons d-flex gap-3">
+              <i class="fa fa-heart"></i>
+              <i class="fa-solid pt-2 fa-cart-shopping fa-bounce"></i>
+              <i class="fa-solid pt-2 fa-user"></i>
+          </div>
+      </nav>
+      <i class="fa-solid pt-2 fa-bars burger" onclick="navTogler()"></i>
+  </header>
+
+    <div class="container steps-chart flex justify-between pt-20 pb-20">
+        <div class="step active flex gap-2 items-center">
+            <div class="icon"><i class="fa-solid fa-location-dot " style="color: #fff;"></i></div>
+            <div>
+                <span>Step 1</span>
+                <p>Address</p>
+            </div>
+        </div>
+        <div class="step flex gap-2 items-center">
+            <div class="icon"><i class="fa-solid fa-cart-flatbed-suitcase" style="color: white;"></i></div>
+            <div>
+                <span>Step 2</span>
+                <p>Shipping</p>
+            </div>
+        </div>
+        <div class="step flex gap-2 items-center">
+            <div class="icon"><i class="fa-solid fa-cash-register" style="color: white;"></i></div>
+            <div>
+                <span>Step 3</span>
+                <p>Payment</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container add-con ">
+        <h1>Select Address</h1>
+        <div class="address flex gap-4 items-start mt-8">
+            <input type="radio" name="adress" checked>
+            <div class="add-details">
+                <div class="flex gap-2">
+                    <p >2118 Thornridge</p>
+                    <p >Home</p>    
+                </div>
+                <p class="add mt-4">
+                    2118 Thornridge Cir. Syracuse, Connecticut 35624
+                </p>
+                <p class="number mt-2">(209) 555-0104</p>
+                <div class="icons">
+                    <i class="fa fa-pencil cursor-pointer" aria-hidden="true"></i>
+                    <i class="fa-solid fa-xmark cursor-pointer"></i>
+                </div>    
+            </div>
+        </div>
+        <div class="address flex gap-4 items-start mt-8">
+            <input type="radio" name="adress" >
+            <div class="add-details">
+                <div class="flex gap-2">
+                    <p >2118 Thornridge</p>
+                    <p >Home</p>    
+                </div>
+                <p class="add mt-4">
+                    2118 Thornridge Cir. Syracuse, Connecticut 35624
+                </p>
+                <p class="number mt-2">(209) 555-0104</p>
+                <div class="icons">
+                    <i class="fa fa-pencil cursor-pointer" aria-hidden="true"></i>
+                    <i class="fa-solid fa-xmark cursor-pointer"></i>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+    <section class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4>Info</h4>
+                <ul class="links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Compressions</a></li>
+                    <li><a href="#">Customers</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Collection</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul class="links">
+                    <li><a href="#">Free Designs</a></li>
+                    <li><a href="#">Latest Designs</a></li>
+                    <li><a href="#">Themes</a></li>
+                    <li><a href="#">Popular Designs</a></li>
+                    <li><a href="#">Art Skills</a></li>
+                    <li><a href="#">New Uploads</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul class="links">
+                    <li><a href="#">Customer Agreement</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">GDPR</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Media Kit</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>
+                    Subscribe to our newsletter for a weekly dose
+                    of news, updates, helpful tips, and
+                    exclusive offers.
+                </p>
+                <form action="#">
+                    <input type="text" placeholder="Your email" required>
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+  </body>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+</html>
