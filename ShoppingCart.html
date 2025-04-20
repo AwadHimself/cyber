@@ -51,12 +51,12 @@
                         <p class="sub-title">128Gb Deep Purple</p>
                         <p class="id pt-2">#25139526913984</p>    
                     </div>
-                    <div class="amount flex gap-2 justify-center items-center sm:w-full max-sm:w-full ">
+                    <div class="amount flex gap-2 justify-center items-center sm:w-full max-sm:w-full " data-unit-price="1399">
                         <button class="minus">-</button>
                         <p class="num">1</p>
                         <button class="plus">+</button>
                         <p class="price pl-4">$1399 </p>
-                        <p class="pl-4 cursor-pointer">X</p>
+                        <p class="pl-4 cursor-pointer remove">X</p>
                     </div>
                 </div>
                 <div class="order flex lg:flex-nowrap md:flex-nowrap sm:flex-wrap max-sm:flex-wrap items-center gap-3 pt-4 pb-8">
@@ -66,12 +66,12 @@
                         <p class="sub-title">GPS 41mm Starlight <br> Aluminium </p>
                         <p class="id pt-2">##63632324</p>    
                     </div>
-                    <div class="amount flex gap-2 justify-center items-center sm:w-full max-sm:w-full">
+                    <div class="amount flex gap-2 justify-center items-center sm:w-full max-sm:w-full" data-unit-price="399">
                         <button class="minus">-</button>
                         <p class="num">1</p>
                         <button class="plus">+</button>
                         <p class="price pl-4">$399 </p>
-                        <p class="pl-4 cursor-pointer">X</p>
+                        <p class="pl-4 cursor-pointer remove">X</p>
                     </div>
                 </div>
                 <div class="order flex lg:flex-nowrap md:flex-nowrap sm:flex-wrap max-sm:flex-wrap items-center gap-3 pt-4 pb-8">
@@ -80,12 +80,12 @@
                         <p class="title">AirPods Max Silver</p>
                         <p class="id pt-2">#53459358345</p>    
                     </div>
-                    <div class="amount flex gap-2 justify-center items-center sm:w-full max-sm:w-full">
+                    <div class="amount flex gap-2 justify-center items-center sm:w-full max-sm:w-full" data-unit-price="599">
                         <button class="minus">-</button>
                         <p class="num">1</p>
                         <button class="plus">+</button>
                         <p class="price pl-4">$599 </p>
-                        <p class="pl-4 cursor-pointer">X</p>
+                        <p class="pl-4 cursor-pointer remove">X</p>
                     </div>
                 </div>
             </div>
@@ -107,21 +107,22 @@
                 <div class="order-calc mt-6 flex flex-col gap-4 ">
                     <div class="flex justify-between Subtotal">
                         <p>Subtotal</p>
-                        <span>$2347</span>
+                        <span class="subtotal-val">$2347</span>
                     </div>
                     <div class="flex justify-between">
                         <p>Estimated Tax</p>
-                        <span>$50</span>
+                        <span class="tax-val" data-tax="50">$50</span>
                     </div>
                     <div class="flex justify-between">
-                        <p>Estimated shipping & Handling</p>
-                        <span>$29</span>
+                        <p>Estimated shipping &amp; Handling</p>
+                        <span class="shipping-val" data-shipping="29">$29</span>
                     </div>
                     <div class="flex justify-between Total">
                         <p>Total</p>
-                        <span>$2426</span>
+                        <span class="total-val">$2426</span>
                     </div>
                 </div>
+                    <button class="checkout">Checkout</button>
             </div>
         </div>
     </div>
@@ -184,5 +185,5 @@
   </body>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/all.min.js"></script>
-  <script src="js/ProductDetailsPage.js"></script>
+  <script src="js/cart.js"></script>
 </html>

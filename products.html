@@ -1,11 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>products</title>
     <!-- bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- Render All Elements Normally -->
     <link rel="stylesheet" href="css/normalize.css" />
     <!-- Font Awesome Library -->
@@ -15,146 +15,148 @@
     <link rel="stylesheet" href="css/products.css" />
     <!-- tailwind -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-  <body >
-    <header class="p-5 header gap-3 ">
+  </head>
+  <body>
+    <header class="p-5 header gap-3">
       <div class="logo">CYBER</div>
       <div class="search">
-          <i class="fa-solid fa-magnifying-glass mag"></i>
-          <input type="search" placeholder="search">
+        <i class="fa-solid fa-magnifying-glass mag"></i>
+        <input type="search" placeholder="search" />
       </div>
       <nav class="nav">
-          <a href="" class="active">Home</a>
-          <a href="">About</a>
-          <a href="">Contact Us</a>
-          <a href="">Blog</a>
-          <div class="icons d-flex gap-3">
-              <i class="fa-regular fa-heart"></i>
-              <i class="fa-solid fa-cart-shopping fa-bounce"></i>
-              <i class="fa-solid fa-user"></i>
-          </div>
+        <a href="" class="active">Home</a>
+        <a href="">About</a>
+        <a href="">Contact Us</a>
+        <a href="">Blog</a>
+        <div class="icons d-flex gap-3">
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping fa-bounce"></i>
+          <i class="fa-solid fa-user"></i>
+        </div>
       </nav>
       <i class="fa-solid fa-bars burger" onclick="navTogler()"></i>
-  </header>
-  <div class="Breadcrumbs">
-    <div class="container  ">
-      <div class="text-wraper flex gap-4 pt-10 pb-10" >
-        <p>Home</p>
-        <p>></p>
-        <p>Category</p>
-        <p>></p>
-        <p>Smart Phones</p>
-      </div>
-    </div>
-  </div>
-  <div class="main-wrapper">
-    <div class="container flex gap-8 max-sm:flex-col">
-      <div class="filter-menu flex flex-col gap-6">
-        <details class="filter" open>
-          <summary class="filter-type" >Brand <i class="fa-solid fa-angle-up"></i> </summary>
-          <div class="results brand-results flex flex-col">
-          </div>
-        </details>
-        <details class="filter  ">
-          <summary class="filter-type" >Battery capacity <i class="fa-solid fa-angle-down"></i></summary>
-          <div class="results Battery-results flex flex-col">
-          </div>
-        </details>
-        <details class="filter  ">
-          <summary class="filter-type" >Screen type <i class="fa-solid fa-angle-down"></i></summary>
-          <div class="results Screen-type-results flex flex-col">
-          </div>
-        </details>
-        <details class="filter  ">
-          <summary class="filter-type" >Screen diagonal <i class="fa-solid fa-angle-down"></i></summary>
-          <div class="results Screen-diagonal-results flex flex-col">
-          </div>
-        </details>
-        <details class="filter  ">
-          <summary class="filter-type" >Built-in memory <i class="fa-solid fa-angle-down"></i></summary>
-          <div class="results memory-results flex flex-col">
-          </div>
-        </details>
-      </div>
-      <div class="products-container">
-        <div class="prod-head flex justify-between flex-wrap ">
-          <div>Selected Products : <span></span></div>
-          <div class="relative">
-            <select name="" id="" >
-              <option value="" disabled selected>By rating</option>
-              <option value="1">1</option>
-              <option value="1">1</option>
-              <option value="1">1</option>
-              <option value="1">1</option>
-              <option value="1">1</option>
-            </select>
-            <i class="fa fa-angle-down arrow" aria-hidden="true"></i>  
-          </div>
-        </div>
-        <div class="products grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 max-sm:grid-cols-2  gap-3 mt-6">
+    </header>
+    <div class="Breadcrumbs">
+      <div class="container">
+        <div class="text-wraper flex gap-4 pt-10 pb-10">
+          <p>Home</p>
+          <p>></p>
+          <p>Category</p>
+          <p>></p>
+          <p>Smart Phones</p>
         </div>
       </div>
     </div>
-  </div>
-  <section class="footer">
-    <div class="footer-row">
-        <div class="footer-col">
-            <h4>Info</h4>
-            <ul class="links">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Compressions</a></li>
-                <li><a href="#">Customers</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Collection</a></li>
-            </ul>
+    <div class="main-wrapper">
+      <div class="container flex gap-8 max-sm:flex-col">
+        <div class="filter-menu flex flex-col gap-6">
+          <details class="filter" open>
+            <summary class="filter-type">
+              Brand <i class="fa-solid fa-angle-up"></i>
+            </summary>
+            <div class="results brand-results flex flex-col"></div>
+          </details>
+          <details class="filter">
+            <summary class="filter-type">
+              Battery capacity <i class="fa-solid fa-angle-down"></i>
+            </summary>
+            <div class="results Battery-results flex flex-col"></div>
+          </details>
+          <details class="filter">
+            <summary class="filter-type">
+              Screen type <i class="fa-solid fa-angle-down"></i>
+            </summary>
+            <div class="results Screen-type-results flex flex-col"></div>
+          </details>
+          <details class="filter">
+            <summary class="filter-type">
+              Screen diagonal <i class="fa-solid fa-angle-down"></i>
+            </summary>
+            <div class="results Screen-diagonal-results flex flex-col"></div>
+          </details>
+          <details class="filter">
+            <summary class="filter-type">
+              Built-in memory <i class="fa-solid fa-angle-down"></i>
+            </summary>
+            <div class="results memory-results flex flex-col"></div>
+          </details>
         </div>
-        <div class="footer-col">
-            <h4>Explore</h4>
-            <ul class="links">
-                <li><a href="#">Free Designs</a></li>
-                <li><a href="#">Latest Designs</a></li>
-                <li><a href="#">Themes</a></li>
-                <li><a href="#">Popular Designs</a></li>
-                <li><a href="#">Art Skills</a></li>
-                <li><a href="#">New Uploads</a></li>
-            </ul>
-        </div>
-        <div class="footer-col">
-            <h4>Legal</h4>
-            <ul class="links">
-                <li><a href="#">Customer Agreement</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">GDPR</a></li>
-                <li><a href="#">Security</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Media Kit</a></li>
-            </ul>
-        </div>
-        <div class="footer-col">
-            <h4>Newsletter</h4>
-            <p>
-                Subscribe to our newsletter for a weekly dose
-                of news, updates, helpful tips, and
-                exclusive offers.
-            </p>
-            <form action="#">
-                <input type="text" placeholder="Your email" required>
-                <button type="submit">SUBSCRIBE</button>
-            </form>
-            <div class="icons">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-github"></i>
+        <div class="products-container">
+          <div class="prod-head flex justify-between flex-wrap">
+            <div>Selected Products : <span></span></div>
+            <div class="relative">
+              <select name="" id="">
+                <option value="" disabled selected>By rating</option>
+                <option value="1">1</option>
+                <option value="1">1</option>
+                <option value="1">1</option>
+                <option value="1">1</option>
+                <option value="1">1</option>
+              </select>
+              <i class="fa fa-angle-down arrow" aria-hidden="true"></i>
             </div>
+          </div>
+          <div
+            class="products grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 max-sm:grid-cols-2 gap-3 mt-6"
+          ></div>
         </div>
+      </div>
     </div>
-</section>
-
-
+    <section class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Info</h4>
+          <ul class="links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Compressions</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Collection</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="links">
+            <li><a href="#">Free Designs</a></li>
+            <li><a href="#">Latest Designs</a></li>
+            <li><a href="#">Themes</a></li>
+            <li><a href="#">Popular Designs</a></li>
+            <li><a href="#">Art Skills</a></li>
+            <li><a href="#">New Uploads</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul class="links">
+            <li><a href="#">Customer Agreement</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">GDPR</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Media Kit</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p>
+            Subscribe to our newsletter for a weekly dose of news, updates,
+            helpful tips, and exclusive offers.
+          </p>
+          <form action="#">
+            <input type="text" placeholder="Your email" required />
+            <button type="submit">SUBSCRIBE</button>
+          </form>
+          <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/all.min.js"></script>
   <script src="js/products.js"></script>
-
 </html>

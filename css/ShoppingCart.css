@@ -1,3 +1,6 @@
+.cart .divder .ordered-prods {
+  flex-basis: 54%;
+}
 .cart .divder .ordered-prods h1 {
   color: #000;
   font-family: Inter;
@@ -53,11 +56,25 @@
   font-weight: 500;
   line-height: 32px; /* 160% */
   letter-spacing: 0.6px;
+  width: 106px;
 }
 .cart .divder .order-sum {
   flex: 1;
   border-radius: 10px;
   border: 1px solid #EBEBEB;
+}
+.cart .divder .order-sum .checkout {
+  display: flex;
+  padding: 16px 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 6px;
+  background: var(--Main-Black, #000);
+  color: white;
+  width: 100%;
+  margin-top: 48px;
 }
 .cart .divder .order-sum h1 {
   color: #111;
