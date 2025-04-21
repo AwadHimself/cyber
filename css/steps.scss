@@ -147,3 +147,22 @@
     transform: translateY(-50%);
     z-index: 0;
 }
+
+.btns{
+    display: flex;
+    justify-content: end;
+    .next , .back{
+        padding: 24px 86px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 6px;
+        background: var(--Main-Black, #000);
+        color: white;
+    }
+    .back{
+        background: white;
+        color: black;
+        border: 1px solid var(--Main-Black, #000);
+    }
+}
