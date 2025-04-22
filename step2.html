@@ -38,14 +38,14 @@
   </header>
 
     <div class="container steps-chart flex justify-between pt-20 pb-20">
-        <div class="step active flex gap-2 items-center">
+        <div class="step  flex gap-2 items-center">
             <div class="icon"><i class="fa-solid fa-location-dot " style="color: #fff;"></i></div>
             <div>
                 <span>Step 1</span>
                 <p>Address</p>
             </div>
         </div>
-        <div class="step flex gap-2 items-center">
+        <div class="step active flex gap-2 items-center">
             <div class="icon"><i class="fa-solid fa-cart-flatbed-suitcase" style="color: white;"></i></div>
             <div>
                 <span>Step 2</span>
@@ -62,49 +62,47 @@
     </div>
 
     <div class="container forms  relative w-full h-500px">
-        <div class="add-con">
-            <h1>Select Address</h1>
-            <div class="address flex gap-4 items-start mt-8">
-                <input type="radio" name="adress" checked>
-                <div class="add-details">
-                    <div class="flex gap-2">
-                        <p >Headoffice</p>
-                        <p >office</p>    
+        <div class="add-con ">
+            <h1>Shipment Method</h1>
+            <div class="ship-methods mt-8 flex flex-col gap-4">
+                <div class="method active flex justify-between p-6">
+                    <div class="info flex gap-4">
+                        <input type="radio" name="shipMethpd" checked>
+                        <span>Free</span>
+                        <span>Regulary shipment</span>    
                     </div>
-                    <p class="add mt-4 max-sm:w-36 sm:w-40 md:w-full">
-                        2715 Ash Dr. San Jose, South Dakota 83475</p>
-                    <p class="number mt-2">(704) 555-0127</p>
-                    <div class="icons">
-                        <i class="fa fa-pencil cursor-pointer" aria-hidden="true"></i>
-                        <i class="fa-solid fa-xmark cursor-pointer"></i>
-                    </div>    
-                </div>
-            </div>
-            <div class="address flex gap-4 items-start mt-8">
-                <input type="radio" name="adress" >
-                <div class="add-details">
-                    <div class="flex gap-2">
-                        <p >2118 Thornridge</p>
-                        <p >Home</p>    
+                    <div class="date">
+                        <span>17 Oct, 2025</span>
                     </div>
-                    <p class="add mt-4 max-sm:w-36 sm:w-40 md:w-full">
-                        2118 Thornridge Cir. Syracuse, Connecticut 35624</p>
-                    <p class="number mt-2">(209) 555-0104</p>
-                    <div class="icons">
-                        <i class="fa fa-pencil cursor-pointer" aria-hidden="true"></i>
-                        <i class="fa-solid fa-xmark cursor-pointer"></i>
-                    </div>    
+
                 </div>
+                <div class="method flex justify-between p-6">
+                    <div class="info flex gap-4">
+                        <input type="radio" name="shipMethpd" >
+                        <span>$8.50</span>
+                        <span>Get your delivery as soon as possible</span>    
+                    </div>
+                    <div class="date">
+                        <span>5 Oct, 2025</span>
+                    </div>
+                </div>
+                <div class="method flex justify-between p-6">
+                    <div class="info flex gap-4">
+                        <input type="radio" name="shipMethpd" >
+                        <span>Schedule</span>
+                        <span>Pick a date when you want to get your delivery</span>    
+                    </div>
+                    <div class="date">
+                        <input type="date" name="" id="">
+                    </div>
+                </div>
+
             </div>
-            <div class="add-new-add flex flex-col gap-2 mt-12 items-center">
-                <div class="plus- w-full flex justify-center relative"><div class="plus"><i class="fa fa-plus" aria-hidden="true" style="color: white;"></i></div></div>
-                <span>Add New Address</span>
-            </div>    
+            <div class=" btns  container flex gap-6 mt-16">
+                <button class="back">Back</button>
+                <button class="next">Next</button>
+            </div>
         </div>
-    </div>
-    <div class=" btns  container flex gap-6 mt-16">
-        <button class="back">Back</button>
-        <button class="next">Next</button>
     </div>
 
     <section class="footer">
