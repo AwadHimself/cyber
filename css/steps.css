@@ -71,7 +71,8 @@
   gap: 24px;
   display: flex;
 }
-.add-con .address input[type=radio] {
+
+input[type=radio] {
   transition: 0.3s;
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -81,7 +82,8 @@
   border-radius: 50%;
   outline: 2px solid black;
 }
-.add-con .address input[type=radio]:checked {
+
+input[type=radio]:checked {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -150,4 +152,34 @@
   background: white;
   color: black;
   border: 1px solid var(--Main-Black, #000);
+}
+
+.method {
+  border-radius: 11px;
+  border: 1px solid #D1D1D8;
+  background: #FFF;
+  opacity: 0.5;
+}
+.method.active {
+  opacity: 1;
+}
+.method .info span:nth-child(2) {
+  color: var(--Main-Black, #000);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+}
+.method .info span:nth-child(3), .method .info .method .date span {
+  color: #17183B;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.method .date span {
+  letter-spacing: 0.1px;
 }/*# sourceMappingURL=steps.css.map */
