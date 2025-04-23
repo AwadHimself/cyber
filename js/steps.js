@@ -14,9 +14,27 @@ function updateSteps() {
     step3.classList.add("hidden");
 
     
-    if (counter === 1) step1.classList.remove("hidden");
-    if (counter === 2) step2.classList.remove("hidden");
-    if (counter === 3) step3.classList.remove("hidden");
+    if (counter === 1) {
+        step1.classList.remove("hidden");
+        stepIndicators.forEach(ind => {
+            ind.classList.remove("max-sm:hidden")
+            stepIndicators[2].classList.add("max-sm:hidden")
+        });
+    }
+    if (counter === 2) {
+        step2.classList.remove("hidden");
+        stepIndicators.forEach(ind => {
+            ind.classList.remove("max-sm:hidden")
+            stepIndicators[0].classList.add("max-sm:hidden")
+        });
+    }
+    if (counter === 3) {
+        step3.classList.remove("hidden");
+        stepIndicators.forEach(ind => {
+            ind.classList.remove("max-sm:hidden")
+            stepIndicators[0].classList.add("max-sm:hidden")
+        });
+    }
 
     
     stepIndicators.forEach((step, index) => {

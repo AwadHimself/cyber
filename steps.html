@@ -52,7 +52,7 @@
                 <p>Shipping</p>
             </div>
         </div>
-        <div class="step flex gap-2 items-center max-sm:hidden">
+        <div class="step flex gap-2 items-center ">
             <div class="icon"><i class="fa-solid fa-cash-register" style="color: white;"></i></div>
             <div>
                 <span>Step 3</span>
@@ -111,7 +111,7 @@
             <h1>Shipment Method</h1>
             <div class="ship-methods mt-8 flex flex-col gap-4">
                 <div class="method active flex justify-between p-6">
-                    <div class="info flex gap-4">
+                    <div class="info flex max-sm:flex-wrap gap-4">
                         <input type="radio" name="shipMethpd" checked>
                         <span>Free</span>
                         <span>Regulary shipment</span>    
@@ -122,7 +122,7 @@
 
                 </div>
                 <div class="method flex justify-between p-6">
-                    <div class="info flex gap-4">
+                    <div class="info flex max-sm:flex-wrap gap-4">
                         <input type="radio" name="shipMethpd" >
                         <span>$8.50</span>
                         <span>Get your delivery as soon as possible</span>    
@@ -132,7 +132,7 @@
                     </div>
                 </div>
                 <div class="method flex justify-between p-6">
-                    <div class="info flex gap-4">
+                    <div class="info flex max-sm:flex-wrap gap-4">
                         <input type="radio" name="shipMethpd" >
                         <span>Schedule</span>
                         <span>Pick a date when you want to get your delivery</span>    
@@ -232,9 +232,9 @@
                         </div>
                     </div>
                 </div>
-                <div class=" btns  container flex gap-6 mt-16 flex-col lg:flex-row w-full">
-                    <button class="back">Back</button>
-                    <button class="next">Pay</button>
+                <div class=" btns  container flex gap-6 mt-16 flex-col lg:flex-row w-full max-md:flex-wrap flex-wrap lg:flex-nowrap">
+                    <button class="back min-lg:w-full">Back</button>
+                    <button class="next min-lg:w-full">Pay</button>
                 </div>            
             </div>
         </div>
@@ -299,5 +299,5 @@
   </body>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/all.min.js"></script>
-  <script src="js/steps .js"></script>
+  <script src="js/steps.js"></script>
 </html>
