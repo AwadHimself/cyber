@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="wid pt-2th=device-wid pt-2th, initial-scale=1.0">
-    <title>Cart</title>
+    <title>Steps</title>
     <!-- bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Render All Elements Normally -->
@@ -62,7 +62,7 @@
     </div>
 
     <div class="container forms">
-        <div class="add-con">
+        <div class="add-con step1 ">
             <h1>Select Address</h1>
             <div class="address flex gap-4 items-start mt-8">
                 <input type="radio" name="adress" checked>
@@ -100,11 +100,145 @@
                 <div class="plus- w-full flex justify-center relative"><div class="plus"><i class="fa fa-plus" aria-hidden="true" style="color: white;"></i></div></div>
                 <span>Add New Address</span>
             </div>    
+            <div class=" btns  container flex gap-6 mt-16 flex-col lg:flex-row w-full">
+                <button class="back">Back</button>
+                <button class="next">Next</button>
+            </div>            
+
         </div>
-    </div>
-    <div class=" btns  container flex gap-6 mt-16">
-        <button class="back">Back</button>
-        <button class="next">Next</button>
+
+        <div class="shipment-con step2 hidden">
+            <h1>Shipment Method</h1>
+            <div class="ship-methods mt-8 flex flex-col gap-4">
+                <div class="method active flex justify-between p-6">
+                    <div class="info flex gap-4">
+                        <input type="radio" name="shipMethpd" checked>
+                        <span>Free</span>
+                        <span>Regulary shipment</span>    
+                    </div>
+                    <div class="date">
+                        <span>17 Oct, 2025</span>
+                    </div>
+
+                </div>
+                <div class="method flex justify-between p-6">
+                    <div class="info flex gap-4">
+                        <input type="radio" name="shipMethpd" >
+                        <span>$8.50</span>
+                        <span>Get your delivery as soon as possible</span>    
+                    </div>
+                    <div class="date">
+                        <span>5 Oct, 2025</span>
+                    </div>
+                </div>
+                <div class="method flex justify-between p-6">
+                    <div class="info flex gap-4">
+                        <input type="radio" name="shipMethpd" >
+                        <span>Schedule</span>
+                        <span>Pick a date when you want to get your delivery</span>    
+                    </div>
+                    <div class="date">
+                        <input type="date" name="" id="">
+                    </div>
+                </div>
+                <div class=" btns  container flex gap-6 mt-16 flex-col lg:flex-row w-full">
+                    <button class="back">Back</button>
+                    <button class="next">Next</button>
+                </div>            
+
+            </div>
+
+        </div>
+
+        <div class="payment-con step3 pt-6 pb-20 flex gap-24 flex-col md:flex-row hidden">
+            <div class="summury px-6 py-8 flex flex-col gap-6">
+                <h1>Summury</h1>
+                <div class="purchased-items flex flex-col gap-4">
+                    <div class="item py-4 pl-4 pr-6 flex justify-between items-center">
+                        <div class="flex gap-4 items-center">                        
+                            <img src="assets/cart/image 56-1.png" class="w-10 h-10" alt="">
+                            <p class="item-name">AirPods Max Silver</p>
+                        </div>
+                        <p class="price">$549</p>
+                    </div>
+                    <div class="item py-4 pl-4 pr-6 flex justify-between items-center">
+                        <div class="flex gap-4 items-center">                        
+                            <img src="assets/cart/image 56-1.png" class="w-10 h-10" alt="">
+                            <p class="item-name">AirPods Max Silver</p>
+                        </div>
+                        <p class="price">$549</p>
+                    </div>
+                    <div class="item py-4 pl-4 pr-6 flex justify-between items-center">
+                        <div class="flex gap-4 items-center">                        
+                            <img src="assets/cart/image 56-1.png" class="w-10 h-10" alt="">
+                            <p class="item-name">AirPods Max Silver</p>
+                        </div>
+                        <p class="price">$549</p>
+                    </div>
+                </div>
+                <div class="shipment-info flex flex-col gap-4">
+                    <div>
+                        <span>Address</span>
+                        <p>1131 Dusty Townline, Jacksonville, TX 40322</p>
+                    </div>
+                    <div>
+                        <span>Shipment method</span>
+                        <p>Free</p>
+                    </div>    
+                </div>
+                <div class="price-info flex flex-col gap-4">
+                    <div class="flex justify-between Subtotal">
+                        <p>Subtotal</p>
+                        <span class="subtotal-val">$2347</span>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <div class="flex justify-between opacity-70">
+                            <p>Estimated Tax</p>
+                            <span class="tax-val" data-tax="50">$50</span>
+                        </div>
+                        <div class="flex justify-between opacity-70">
+                            <p>Estimated shipping &amp; Handling</p>
+                            <span class="shipping-val" data-shipping="29">$29</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between Total">
+                        <p>Total</p>
+                        <span class="total-val">$2426</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="payment">
+                <h1>Payment</h1>
+                <div class="pay-methods mt-6 flex flex-col gap-10 justify-start">
+                    <div class="methods flex gap-14">
+                        <p class="pay-method active py-2">
+                            Credit Card
+                        </p>
+                        <p class="pay-method py-2">
+                            PayPal                      
+                        </p>
+                        <p class="pay-method py-2">
+                            PayPal credit                      
+                        </p>
+                    </div>
+                    <img src="assets/visa.png" alt="">
+                    <div class="your-info flex flex-col gap-4">
+                        <input placeholder="Cardholder Name"  class="input">
+                        <input placeholder="Card Number"  class="input">
+                        <div class="flex gap-4">
+                            <input placeholder="Exp.Date"  class="input">
+                            <input placeholder="CVV"  class="input">    
+                        </div>
+                    </div>
+                </div>
+                <div class=" btns  container flex gap-6 mt-16 flex-col lg:flex-row w-full">
+                    <button class="back">Back</button>
+                    <button class="next">Pay</button>
+                </div>            
+            </div>
+        </div>
+
     </div>
 
     <section class="footer">

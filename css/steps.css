@@ -182,4 +182,93 @@ input[type=radio]:checked {
 }
 .method .date span {
   letter-spacing: 0.1px;
+}
+
+.payment-con .summury {
+  border-radius: 10px;
+  border: 1px solid #EBEBEB;
+  background: #FFF;
+  flex: 1 0 50%;
+}
+.payment-con .summury h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 80% */
+  letter-spacing: 0.6px;
+}
+.payment-con .summury .purchased-items .item {
+  border-radius: 13px;
+  background: #F6F6F6;
+}
+.payment-con .summury .purchased-items .item .item-name {
+  color: var(--Main-Black, #000);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.payment-con .summury .purchased-items .item .price {
+  color: var(--Main-Black, #000);
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+.payment-con .summury .shipment-info span {
+  color: #545454;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+}
+.payment-con .summury .shipment-info p {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 8px;
+  line-height: 24px; /* 150% */
+}
+.payment-con .payment h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 80% */
+  letter-spacing: 0.6px;
+}
+.payment-con .payment .pay-methods .methods .pay-method {
+  color: #717171;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: 0.42px;
+  cursor: pointer;
+}
+.payment-con .payment .pay-methods .methods .pay-method.active {
+  color: #000;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+.payment-con .payment .pay-methods img {
+  width: 80%;
+}
+.payment-con .payment .pay-methods .input {
+  height: 48px;
+  padding: 12px 16px;
+  border-radius: 7px;
+  border: 0.5px solid #CECECE;
+  background: #FFF;
+  width: 100%;
 }/*# sourceMappingURL=steps.css.map */
